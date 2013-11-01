@@ -41,6 +41,12 @@ $(function () {
      Determine mouse position on screen from -1 to +1;
      Shift elements according to their range (+ -)
      Higher ranges means more movement.
+     element: What I want to move
+     property: What css attribute I'll tweak to show movement
+     base: zero position.
+     suffix: Necessary for the css property ot work (eg: px, em, %)
+     range: +- range of motion for the property.
+     direction: Direction of the offset to be applied.
      */
     var parallax = [
         {
@@ -68,12 +74,20 @@ $(function () {
             direction: 1
         }
     ];
+
     $(window).on("mousemove", function (e) {
+            //Look at mouse position within the screen, and determine it's relative location.
+            //-1 would be the far left, 1 would be the far right.
             var position = -(bodyWidth - 2 * e.screenX) / (bodyWidth);
+
+            //Iterate through all the elements in the parallax group, and shift them according to the mouse position
             for (var i in parallax) {
                 var p = parallax[i];
+                //Determine the new position as: The zero (base) position + (new offset in -range to +range)
                 var newPos = p.base + (position * p.range * p.direction) + p.suffix;
                 var newCss = {};
+                //Background positions have two coordinates, which required the clause below.
+                //The property becomes "N 0" for movement along the x axis, where N is the new position.
                 newCss[p.property] = (p.property === "backgroundPosition" ? newPos + " 0" : newPos);
                 p.element.css(newCss);
 
