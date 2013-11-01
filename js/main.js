@@ -48,7 +48,7 @@ $(function () {
             property: "backgroundPosition",
             base: -200,
             suffix: "px",
-            range: 6,
+            range: 3,
             direction: 1
         },
         {
@@ -64,7 +64,7 @@ $(function () {
             property: "backgroundPosition",
             base: 0,
             suffix: "px",
-            range: 5,
+            range: 10,
             direction: 1
         }
     ];
