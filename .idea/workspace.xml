@@ -1,13 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="" />
+    <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/KrakenLogoLarge.png" afterPath="$PROJECT_DIR$/img/KrakenLogoLarge.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="kraken-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/humans.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383239820103" ignored="false" />
-    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383263196323" ignored="false" />
-    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383275522334" ignored="false" />
+    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383845429886" ignored="false" />
+    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383848846507" ignored="false" />
     <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383277883260" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/config.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/appcore.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/stream.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688628" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/.jshintrc" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/util/configutil.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/util/pathutil.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383840725138" ignored="false" />
+    <file path="/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383840652099" ignored="false" />
+    <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/specifics.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
+    <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/stylesheet.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
+    <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
+    <file path="/Dummy.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383667126194" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/Gruntfile.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/templates.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/controllers/create.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/lib/v4Content.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/controllers/congratsHardStop.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/registerTemplates.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="$PROJECT_DIR$/../falcon-app/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
+    <file path="/a.dummy" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615963404" ignored="false" />
+    <file path="$PROJECT_DIR$/../PayPalIntegrationApp/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383665662187" ignored="false" />
+    <file path="/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383665480386" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/MainSite/.gitignore" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383667307270" ignored="false" />
+    <file path="/.gitignore" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383667302775" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/MainSite/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383678578015" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/MainSite/css/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383677448266" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/MainSite/consume.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383671783674" ignored="false" />
+    <file path="/consume.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383671710098" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/MainSite/release.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383678474236" ignored="false" />
+    <file path="/release.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383678467985" ignored="false" />
+    <file path="/*.regexp" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838680266" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kappa/lib/log.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838428462" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kappa/lib/stats.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383857865238" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kappa/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383857817529" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kappa/lib/delegate/devnull.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383857911945" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kappa/lib/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383857856928" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kappa/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383857804469" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/abstractWriter.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/serializerFactory.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/writeStream.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/abstractReader.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/findATag/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/cache.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/page/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/findATag/lib/parseStream.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/utils.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/controller/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/locale/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/template/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/resolver.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/transcoder.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/inputChain.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-devtools/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551785" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-devtools/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/test/test-creation.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/model/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/tasks/dustjs-i18n.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/lusca/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/app/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/shortstop/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/lusca/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383839668126" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383839668127" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/promises.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/patch/state.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/patch/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/reader/file.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/express-enrouten/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/reader/js.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383839668127" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/helpers.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/reader/dust.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/express-enrouten/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/generator-kraken/test/test-load.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/util.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/fileutil.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/findATag/lib/parser.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/shortstop/lib/resolver.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/findATag/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-setup/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/handler/default.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-setup/install.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/qutil.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383839668127" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/view/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/view/js.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/view/dust.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/json/writer.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/translator/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/json/reader.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/river.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/provider/metadata.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/json/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/reqwire.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/provider/bundle.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/properties/writer.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/engine.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/makara/lib/provider/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/properties/reader.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/adaro/lib/brook.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/shortstop/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/lib/serializer/properties/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838551786" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/middleware/compiler.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688628" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/middleware/error.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/util/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/middleware/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/middleware/session.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/middleware/multipart.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/middleware/logger.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/Gruntfile.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/spud/index.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838717151" ignored="false" />
+    <file path="$PROJECT_DIR$/../kraken/kraken-js/LICENSE.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383839668126" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +146,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -59,6 +182,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -70,11 +194,8 @@
     <leaf>
       <file leaf-file-name="CONTRIBUTING.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,15 +206,6 @@
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robots.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/robots.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -110,42 +222,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/404.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="-10.125">
+            <state line="127" column="39" selection-start="4055" selection-end="4055" vertical-scroll-proportion="-13.791667">
               <folding>
-                <marker date="1383263203000" expanded="true" signature="792:945" placeholder="..." />
-                <marker date="1383263203000" expanded="true" signature="885:913" placeholder="..." />
+                <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <marker date="1383848917000" expanded="true" signature="792:945" placeholder="..." />
+                <marker date="1383848917000" expanded="true" signature="885:913" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="96" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.6917808">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="211" column="23" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
+            <state line="155" column="19" selection-start="2721" selection-end="2721" vertical-scroll-proportion="0.30981594">
               <folding>
-                <element signature="e#3707#4370#2" expanded="true" />
+                <element signature="e#4171#4834#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,13 +254,21 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/humans.txt" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -172,9 +276,9 @@
     <option name="x" value="43" />
     <option name="y" value="22" />
     <option name="width" value="1397" />
-    <option name="height" value="878" />
+    <option name="height" value="838" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -210,30 +314,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -243,10 +323,15 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager">
@@ -262,6 +347,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -292,19 +390,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -318,6 +403,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -348,6 +440,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="" />
@@ -357,8 +466,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="22" width="1397" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="43" y="22" width="1397" height="838" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -375,13 +484,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651369" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20651369" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -446,6 +555,72 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/humans.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1383848917000" expanded="true" signature="792:945" placeholder="..." />
+            <marker date="1383848917000" expanded="true" signature="885:913" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="96" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="23" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#4171#4834#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
@@ -486,29 +661,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="32" selection-start="752" selection-end="752" vertical-scroll-proportion="-0.10869565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="-10.125">
+        <state line="127" column="39" selection-start="4055" selection-end="4055" vertical-scroll-proportion="-13.791667">
           <folding>
-            <marker date="1383263203000" expanded="true" signature="792:945" placeholder="..." />
-            <marker date="1383263203000" expanded="true" signature="885:913" placeholder="..." />
+            <element signature="tag#div#0;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <marker date="1383848917000" expanded="true" signature="792:945" placeholder="..." />
+            <marker date="1383848917000" expanded="true" signature="885:913" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="23" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
+        <state line="155" column="19" selection-start="2721" selection-end="2721" vertical-scroll-proportion="0.30981594">
           <folding>
-            <element signature="e#3707#4370#2" expanded="true" />
+            <element signature="e#4171#4834#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="96" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.6917808">
-          <folding />
         </state>
       </provider>
     </entry>

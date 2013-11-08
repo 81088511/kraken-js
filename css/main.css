@@ -97,15 +97,26 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-h1 {
-    margin:0;
+/*Preload Blinky*/
+body:after {
+    display: none;
+    content: url(../img/KrakenLogoLargeBlink.png);
 }
+
+h1 {
+    margin: 0;
+}
+
+a {
+    color: #FFF;
+}
+
 body {
-    background-color: rgb(38,60,129);
+    background-color: rgb(38, 60, 129);
     background-image: url("../img/Rays.png");
     background-repeat: repeat-x;
     background-position: -200px 0;
-    font-family: "Helvetica Neue",arial, sans-serif;
+    font-family: "Helvetica Neue", arial, sans-serif;
     color: #F2F2F2;
 }
 
@@ -114,52 +125,70 @@ header {
 
 }
 
-header ul{
-    padding:  0;
+header ul {
+    padding: 0;
     margin: 0;
 }
-header ul li{
+
+header ul li {
     list-style: none;
     display: inline-block;
     margin-right: 3em;
-
-}
-header ul li:last-of-type{
-    float:right;
-    margin-right: 0;
+    min-width: 30px;
+    height: 30px;
 
 }
 
-div.wrapper{
+header ul li:last-of-type {
+    float: right;
+    margin: 15px 0 0 0;
+
+}
+
+header .hex2 {
+    font-size: 10px;
+    position: absolute;
+    margin: 10px;
+}
+
+div.wrapper {
     width: 960px;
     margin: 0 auto;
 }
 
-#MainBlock{
+#MainBlock {
     position: relative;
 }
 
-#MainBlock .wrapper{
+#MainBlock .wrapper {
     margin: 0 auto 100px;
 }
 
-#Intro{
+#Intro {
     margin: 2em 0 0 0;
     position: relative;
     z-index: 2;
 }
 
-#MainLogo{
+#MainLogo {
     float: left;
-    height: 300px;
+    height: 250px;
+    width: 200px;
+    background-image: url(../img/KrakenLogoLarge.png);
+    background-repeat: no-repeat;
     margin: 0 2em 0 0;
 }
 
-#Intro h1{
+#MainLogo:hover {
+    background-image: url(../img/KrakenLogoLargeBlink.png);
+}
+
+#Intro h1 {
     font-size: 1.25em;
     font-weight: normal;
 }
-#Intro .download{
+
+#Intro .download {
     border-radius: 5px;
     padding: .75em;
     margin: 1em 0;
@@ -167,22 +196,22 @@ div.wrapper{
     color: #0779BE;
 }
 
-#Intro ul li{
+#Intro ul li {
     display: inline-block;
     list-style: none;
-    margin: 0 2em 0 0 ;
+    margin: 0 2em 0 0;
 }
 
-#Intro a{
+#Intro a {
     text-decoration: none;
     color: #0D80C1;
 }
-#Intro a:visited{
+
+#Intro a:visited {
     color: #0D80C1;
 }
 
-
-#Rocks{
+#Rocks {
     background-image: url("../img/Rocks.png");
     background-repeat: repeat-x;
     height: 111px;
@@ -190,13 +219,13 @@ div.wrapper{
     z-index: 2;
 }
 
-#Rocks .bottom{
-    background-color: #222357;
+#Rocks .bottom {
+    background-color: #232556;
     height: 51px;
     margin-top: 38px;
 }
 
-#Tentacle{
+#Tentacle {
     background-image: url("../img/Tentacle.png");
     background-position: 0 20px;
     background-repeat: no-repeat;
@@ -208,44 +237,180 @@ div.wrapper{
     z-index: -1;
 }
 
-#InfoBlock{
-    background: #222357; /* Old browsers */
+#InfoBlock {
+    background: #232556; /* Old browsers */
     /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIyMjM1NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDRmOGIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-    background: -moz-linear-gradient(top,  #222357 0%, #004f8b 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222357), color-stop(100%,#004f8b)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  #222357 0%,#004f8b 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top,  #222357 0%,#004f8b 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top,  #222357 0%,#004f8b 100%); /* IE10+ */
-    background: linear-gradient(to bottom,  #222357 0%,#004f8b 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222357', endColorstr='#004f8b',GradientType=0 ); /* IE6-8 */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzMjU1NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iIzAwNGY4YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top, #232556 0%, #004f8b 40%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #232556), color-stop(40%, #004f8b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #232556 0%, #004f8b 40%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #232556 0%, #004f8b 40%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #232556 0%, #004f8b 40%); /* IE10+ */
+    background: linear-gradient(to bottom, #232556 0%, #004f8b 40%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#232556', endColorstr='#004f8b', GradientType=0); /* IE6-8 */
 
+    padding-bottom: 30px;
+}
+
+#InfoBlock h3 {
+    margin:0 0;
+}
+
+#InfoBlock h1 {
+    font-weight: 200;
+}
+
+#InfoBlock hr {
+    border-color: #0095D4;
+}
+
+#modules {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#modules > li {
+    display: inline-block;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+
+#modules > li:last-of-type {
+    float: right;
+}
+
+#modules > li h3 {
+    margin: 5px 0;
+    font-weight: 200;
 
 }
 
+li.lusca h3 {
+    color: #F6CA42;
+}
+
+li.makara h3 {
+    color: #B45E17;
+}
+
+li.adaro h3 {
+    color: #8765AB;
+}
+
+li.kappa h3 {
+    color: #71A348;
+}
+
+#cast {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#cast li {
+    display: inline-block;
+    height: 4em;
+    text-align: center;
+    margin: 0 10px 0 0;
+
+}
+
+#cast li p {
+    margin: 0;
+
+}
+
+#cast a {
+    text-decoration: none;
+}
+
+#cast li:hover .info {
+    display:block;
+}
+
+#cast .info {
+    display: none;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: -15px;
+    width: 430px;
+}
+
+#cast .info p{
+    color: #FFFFFF;
+
+}
+
+#cast .info h4 {
+    margin: 0 0 .25em 0;
+}
+
+/*Hexagon*/
+
+.hex2 {
+
+    width: 4em;
+    height: 4em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hex2 > div:first-of-type {
+    font-size: 5em;
+    line-height: 0.3em;
+    position: absolute;
+    text-align: center;
+
+}
+
+.hex2 > div:last-of-type {
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    width: 2.25em;
+    color: #FFF;
+}
+
+.kraken, .kraken a {
+    color: #1482C0;
+}
+
+.generator, .generator a {
+    color: #00c5ff;
+}
+
+.shortstop, .shortstop a {
+    color: #B45E17;
+}
+
+.findatag, .findatag a {
+    color: #ff039c;
+}
+
+.spud, .spud a {
+    color: #9a5fff;
+}
+
+.enrouten, .enrouten a {
+    color: #50ff33;
+}
+
+.webtools, .webtools a {
+    color: #ff5e01;
+}
 
 /*Just for fun*/
-.bubble{
+.bubble {
     z-index: 0;
-    bottom:50px;
+    bottom: 50px;
     position: absolute;
     border-radius: 3em;
     border: solid 1px #169;
-    background-color: rgba(255,255,255  ,0.08);
+    background-color: rgba(255, 255, 255, 0.08);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -359,9 +524,9 @@ div.wrapper{
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 

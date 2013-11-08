@@ -19,7 +19,7 @@ $(function () {
         $("#MainBlock").prepend(bubble);
 
         bubble
-            .animate({bottom: 540}, speed, "linear",
+            .animate({bottom: 580}, speed, "linear",
             //Once it reaches the top, remove it, and launch a new random bubble
             function () {
                 $(this).remove();
@@ -48,6 +48,8 @@ $(function () {
      range: +- range of motion for the property.
      direction: Direction of the offset to be applied.
      */
+
+    //Elements to move
     var parallax = [
         {
             element: $("body"),
@@ -75,6 +77,7 @@ $(function () {
         }
     ];
 
+    //Parallax effect
     $(window).on("mousemove", function (e) {
             //Look at mouse position within the screen, and determine it's relative location.
             //-1 would be the far left, 1 would be the far right.
