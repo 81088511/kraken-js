@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en-US"> <![endif]-->
 <!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
 <!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
+<html class="no-js lt-ie9" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
+    <title>KrakenJS Suite</title>
+    <meta name="description" content="Homepage for the KrakenJS Suite">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+    <script src="js/vendor/google-code-prettify/prettify.js"></script>
+    <script src="js/vendor/google-code-prettify/lang-css.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="js/vendor/google-code-prettify/sons-of-obsidian.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
 </head>
 <body>
+
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
     your browser</a> to improve your experience.</p>
@@ -36,7 +41,7 @@
                     <div>K</div>
                 </div>
             </a></li>
-            <li>Getting Started</li>
+            <li><a href="#QuickStart">Getting Started</a></li>
             <li>Documentation</li>
             <li>Team + Contact</li>
             <li><img src="img/OSSLogo.png" alt="PayPal Open Source"></li>
@@ -47,7 +52,7 @@
     <div class="wrapper">
 
         <div id="Intro">
-            <div id="MainLogo"></div>
+            <div id="MainLogo" class="mainLogo"></div>
             <img src="img/TextLogo@High.png" alt="KrakenJS" height="65">
 
             <h1>
@@ -87,36 +92,28 @@
 
                 <h3>Lusca</h3>
 
-                <p>Application security</p>
-                <a href="#">View on GitHub</a><br>
-                <a href="#">Documentation</a>
+                <a href="http://github.com/paypal/lusca">Application security</a>
             </li>
             <li class="makara">
                 <img src="img/Makara.png" alt="makara">
 
                 <h3>Makara</h3>
 
-                <p>Internationalization</p>
-                <a href="#">View on GitHub</a><br>
-                <a href="#">Documentation</a>
+                <a href="http://github.com/paypal/makara">Internationalization</a>
             </li>
             <li class="adaro">
                 <img src="img/Adaro.png" alt="Adaro">
 
                 <h3>Adaro</h3>
 
-                <p>Dust-js Support</p>
-                <a href="#">View on GitHub</a><br>
-                <a href="#">Documentation</a>
+                <a href="http://github.com/paypal/adaro">Dust-js Support</a>
             </li>
             <li class="kappa">
                 <img src="img/Kappa.png" alt="Kappa">
 
                 <h3>Kappa</h3>
 
-                <p>NPM Proxy</p>
-                <a href="#">View on GitHub</a><br>
-                <a href="#">Documentation</a>
+                <a href="http://github.com/paypal/kappa">NPM Proxy</a>
             </li>
         </ul>
     </div>
@@ -125,156 +122,253 @@
         <hr>
 
         <div>
-                <h1>Supporting Cast</h1>
-                <p>These are additional dependencies, tools and utilities for the Kraken Suite</p>
-                <br>
-                <ul  id="cast">
+            <h1>Supporting Cast</h1>
 
-                    <li class="generator">
-                        <a href="#">
-                            <div class="hex2">
-                                <div>⬢</div>
-                                <div>G</div>
-                            </div>
-                            <div>Generator</div>
-                        </a>
-                        <div class="info">
-                            <h4>Generator</h4>
-                            <p>
-                                A Yeoman Generator that will allow you to quickly set up Kraken projects
-                            </p>
+            <p>These are additional dependencies, tools and utilities for the Kraken Suite</p>
+            <br>
+            <ul id="cast">
+
+                <li class="generator" tabindex="4">
+                    <a href="#">
+                        <div class="hex2">
+                            <div>⬢</div>
+                            <div>G</div>
                         </div>
-                    </li>
-                    <li class="shortstop">
-                        <a href="#">
-                            <div class="hex2">
-                                <div>⬢</div>
-                                <div>S</div>
-                            </div>
-                            <div>Shortstop</div>
-                        </a>
-                        <div class="info">
-                            <h4>Shortstop</h4>
-                            <p>
-                                Sometimes JSON just isn't enough for configuration needs.
-                                Shortstop enables the use of protocols and handlers to enable
-                                identification and special handling of json values.
-                            </p>
+                        <div>Generator</div>
+                    </a>
+
+                    <div class="info">
+                        <h4>Generator</h4>
+
+                        <p>
+                            A Yeoman Generator that will allow you to quickly set up Kraken projects
+                        </p>
+                    </div>
+                </li>
+                <li class="shortstop" tabindex="5">
+                    <a href="#">
+                        <div class="hex2">
+                            <div>⬢</div>
+                            <div>S</div>
                         </div>
-                    </li>
-                    <li class="findatag">
-                        <a href="#">
-                            <div class="hex2">
-                                <div>⬢</div>
-                                <div>F</div>
-                            </div>
-                            <div>FindATag</div>
-                        </a>
-                        <div class="info">
-                            <strong>FindATag</strong>
-                            <p>
-                                A string tokenizer, that looks for a specific pattern:
-                                <pre>{@[A-Za-z._] [attrs...]/}.</pre>
+                        <div>Shortstop</div>
+                    </a>
 
-                            </p>
+                    <div class="info">
+                        <h4>Shortstop</h4>
+
+                        <p>
+                            Sometimes JSON just isn't enough for configuration needs.
+                            Shortstop enables the use of protocols and handlers to enable
+                            identification and special handling of json values.
+                        </p>
+                    </div>
+                </li>
+                <li class="findatag" tabindex="6">
+                    <a href="#">
+                        <div class="hex2">
+                            <div>⬢</div>
+                            <div>F</div>
                         </div>
-                    </li>
-                    <li class="spud">
-                        <a href="#">
-                            <div class="hex2">
-                                <div>⬢</div>
-                                <div>S</div>
-                            </div>
-                            <div>Spud</div>
+                        <div>FindATag</div>
+                    </a>
 
-                        </a>
-                        <div class="info">
-                            <strong>Spud</strong>
-                            <p>
-                                A content bundle transcoder. It will convert to and from different formats, including .properties, .json, etc
-                            </p>
+                    <div class="info">
+                        <strong>FindATag</strong>
+
+                        <p>
+                            A string tokenizer, that looks for a specific pattern:
+                        <pre>{@[A-Za-z._] [attrs...]/}.</pre>
+
+                        </p>
+                    </div>
+                </li>
+                <li class="spud" tabindex="7">
+                    <a href="#">
+                        <div class="hex2">
+                            <div>⬢</div>
+                            <div>S</div>
                         </div>
-                    </li>
-                    <li class="enrouten">
-                        <a href="#">
-                            <div class="hex2">
-                                <div>⬢</div>
-                                <div>E</div>
-                            </div>
-                            <div>Enrouten</div>
+                        <div>Spud</div>
 
-                        </a>
-                        <div class="info">
-                            <strong>Enrouten</strong>
-                            <p>
-                                Route configuration middleware for expressjs. This module changes where/how express loads its routing, making for more organized applications.
-                            </p>
+                    </a>
+
+                    <div class="info">
+                        <strong>Spud</strong>
+
+                        <p>
+                            A content bundle transcoder. It will convert to and from different formats, including
+                            .properties, .json, etc
+                        </p>
+                    </div>
+                </li>
+                <li class="enrouten" tabindex="9">
+                    <a href="#">
+                        <div class="hex2">
+                            <div>⬢</div>
+                            <div>E</div>
                         </div>
-                    </li>
+                        <div>Enrouten</div>
 
-                    <li class="webtools">
-                        <a href="#">
-                            <div class="hex2">
-                                <div>⬢</div>
-                                <div>W</div>
-                            </div>
-                            <div>WebTools</div>
+                    </a>
 
-                        </a>
-                        <div class="info">
-                            <strong>WebTools</strong>
-                            <p>
-                                A collection of Development-time tools for Kraken applications.
-                            </p>
+                    <div class="info">
+                        <strong>Enrouten</strong>
+
+                        <p>
+                            Route configuration middleware for expressjs. This module changes where/how express loads
+                            its routing, making for more organized applications.
+                        </p>
+                    </div>
+                </li>
+
+                <li class="webtools" tabindex="10">
+                    <a href="#">
+                        <div class="hex2">
+                            <div>⬢</div>
+                            <div>W</div>
                         </div>
-                    </li>
+                        <div>WebTools</div>
 
-                </ul>
-            </div>
+                    </a>
+
+                    <div class="info">
+                        <strong>DevTools</strong>
+
+                        <p>
+                            A collection of Development-time tools for Kraken applications.
+                        </p>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+        <hr>
     </div>
 </div>
-<div>
-    <h1>Getting Started</h1>
+<div class="docs">
+    <div class="wrapper">
+        <h1 id="QuickStart">Getting started with Kraken</h1>
 
-    <div class="staticMenu">
-        <ul>
-            <li>Getting Started</li>
-            <li>
-                Setting Up
-                <ul>
-                    <li>Setup 1</li>
-                    <li>Setup 2</li>
-                    <li>Setup 3</li>
-                </ul>
-            </li>
-            <li>Getting Started</li>
-            <li>Getting Started</li>
-            <li>Getting Started</li>
-            <li>Getting Started</li>
-            <li>Getting Started</li>
-        </ul>
+        <div class="staticMenu">
+
+        </div>
+        <div class="docsContent">
+            <section>
+                <h2>Setting Up</h2>
+
+                <p>
+                    The fastest way to get started with Kraken is to use the Yeoman generator for it. Start by
+                    installing it
+                    globally
+                    using <strong>npm</strong>: <code>sudo npm install -g generator-kraken</code>
+                </p>
+
+                <p>
+                    Once installed, you can create a basic project using the generator. Type <code>yo kraken</code> and
+                    follow
+                    the prompts; you will be asked for a project name, description and author name.
+                </p>
+    <pre class="prettyprint lang-html">
+$ yo kraken
+
+     ,'""`.
+    / _  _ \
+    |(@)(@)|   Release the Kraken!
+    )  __  (
+   /,'))((`.\
+  (( ((  )) ))
+   `\ `)(' /'
+
+[?] Application name: HelloWorld
+[?] Description: A test Kraken application
+[?] Author: YourName GoesHere
+    </pre>
+
+                <p>
+                    The generator will create a directory for your application (Based on your answer to the first
+                    question),
+                    set
+                    up an empty project
+                    and download all the necessary dependencies. To run your project, just go into your folder and type
+                    <code>npm start</code>
+                </p>
+        <pre class="prettyprint lang-html">
+$ cd HelloWorld
+$ npm start
+
+> helloworld@0.0.1 start ~/HelloWorld
+> node index.js
+
+Listening on 8000
+        </pre>
+                <p>
+                    Your Kraken application will start up on port 8000. You can visit it at <a
+                        href="http://localhost:8000">http://localhost:8000</a>
+                </p>
+
+            </section>
+
+            <section>
+                <h2>Configuring Kraken</h2>
+
+                <p>
+                    Let's say you want to create a simple application. Typically, most of the action would happen in
+                    your index.js file. You'd load up your required middleware, configure the server, create all the
+                    routes and maybe even throw in some inline logic because, hey, it's only a couple of lines, right?
+                    As your application grows, this becomes unmanageable and messy. Kraken helps you stay organized by
+                    imposing a sound structure and strategy.
+                    </p>
+                <p>
+
+                    Let's inspect a basic Kraken project to understand its structure. First let's look at our basic
+                    <code>index.js</code> entry point.
+
+                    You will very quickly notice that its very small. Where's all the configuration? Where are the
+                    routes?
+                </p>
+                <pre class="prettyprint linenums">
+'use strict';
+
+var kraken = require('kraken-js'),
+    app = {};
+
+
+app.configure = function (nconf, next) {
+    // Fired when an app configures itself
+    next(null);
+};
+
+
+app.requestStart = function (server) {
+    // Fired at the beginning of an incoming request
+};
+
+
+app.requestBeforeRoute = function (server) {
+    // Fired before routing occurs
+};
+
+
+kraken.create(app).listen(function (err) {
+    if (err) {
+        console.error(err);
+    }
+});
+                </pre>
+            </section>
+
+        </div>
     </div>
-    <div class="documentation">
-        <h2>Heading 1</h2>
-
-        <h3>Subheading byline</h3>
-        <h4>Heading 2</h4>
-
-        <p>
-            Lorem ipsum
-        </p>
-        <a href="#">This is a link!</a>
-        <code>
-
-        </code>
-
-    </div>
-
 </div>
 <footer>
-    Designed with ❤ and care by <a href="http://www.paypal.com" alt="PayPal">PayPal</a><br>
-    Code Licensed under <a href="http://www.paypal.com" alt="PayPal">Apache Lucense v2.0</a>
-    , documentation under <a href="http://www.paypal.com" alt="PayPal">CC BY 3.0</a>
+    <div class="wrapper">
+        Designed with ❤ and care by <a href="http://www.paypal.com" alt="PayPal">PayPal</a><br>
+        Code Licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" alt="Apache License">Apache
+        License v2.0</a>
+        , documentation under <a href="http://creativecommons.org/licenses/by/3.0/legalcode"
+                                 alt="Cretive Commons License">CC BY 3.0</a>
+    </div>
 </footer>
 
 
@@ -282,6 +376,7 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
@@ -297,7 +392,7 @@
         m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-45342705-1', 'krakenjs.org');
+    ga('create', 'UA-45342705-1', 'krakenjs.com');
     ga('send', 'pageview');
 
 </script>
