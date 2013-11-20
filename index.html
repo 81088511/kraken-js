@@ -247,28 +247,28 @@
     </div>
 </div>
 <div class="docs">
-    <div class="wrapper">
-        <h1 id="QuickStart">Getting started with Kraken</h1>
+<div class="wrapper">
+<h1 id="QuickStart">Getting started with Kraken</h1>
 
-        <div class="staticMenu">
+<div class="staticMenu">
 
-        </div>
-        <div class="docsContent">
-            <section>
-                <h2>Setting Up</h2>
+</div>
+<div class="docsContent">
+<section>
+    <h2>Setting Up</h2>
 
-                <p>
-                    The fastest way to get started with Kraken is to use the Yeoman generator for it. Start by
-                    installing it
-                    globally
-                    using <strong>npm</strong>: <code>sudo npm install -g generator-kraken</code>
-                </p>
+    <p>
+        The fastest way to get started with Kraken is to use the Yeoman generator for it. Start by
+        installing it
+        globally
+        using <strong>npm</strong>: <code>sudo npm install -g generator-kraken</code>
+    </p>
 
-                <p>
-                    Once installed, you can create a basic project using the generator. Type <code>yo kraken</code> and
-                    follow
-                    the prompts; you will be asked for a project name, description and author name.
-                </p>
+    <p>
+        Once installed, you can create a basic project using the generator. Type <code>yo kraken</code> and
+        follow
+        the prompts; you will be asked for a project name, description and author name.
+    </p>
     <pre class="prettyprint lang-html">
 $ yo kraken
 
@@ -285,14 +285,14 @@ $ yo kraken
 [?] Author: YourName GoesHere
     </pre>
 
-                <p>
-                    The generator will create a directory for your application (Based on your answer to the first
-                    question),
-                    set
-                    up an empty project
-                    and download all the necessary dependencies. To run your project, just go into your folder and type
-                    <code>npm start</code>
-                </p>
+    <p>
+        The generator will create a directory for your application (Based on your answer to the first
+        question),
+        set
+        up an empty project
+        and download all the necessary dependencies. To run your project, just go into your folder and type
+        <code>npm start</code>
+    </p>
         <pre class="prettyprint lang-html">
 $ cd HelloWorld
 $ npm start
@@ -302,25 +302,25 @@ $ npm start
 
 Listening on 8000
         </pre>
-                <p>
-                    Your Kraken application will start up on port 8000. You can visit it at <a
-                        href="http://localhost:8000">http://localhost:8000</a>. If all goes well, your very polite
-                    application will say hello.
-                </p>
+    <p>
+        Your Kraken application will start up on port 8000. You can visit it at <a
+            href="http://localhost:8000">http://localhost:8000</a>. If all goes well, your very polite
+        application will say hello.
+    </p>
 
-            </section>
+</section>
 
-            <section>
-                <h2>Structure of a Project</h2>
+<section>
+    <h2>Structure of a Project</h2>
 
-                <p>
-                    Kraken keeps your code organized by splitting up the configuration, content+templates and routing
-                    logic into different places so that it's easy to keep track of everything and to easily swap out
-                    components.
+    <p>
+        Kraken keeps your code organized by splitting up the configuration, content+templates and routing
+        logic into different places so that it's easy to keep track of everything and to easily swap out
+        components.
 
-                    Let's start by looking at the base structure of the project you just created:
-                </p>
-                <h4>Structure of a Kraken Project</h4>
+        Let's start by looking at the base structure of the project you just created:
+    </p>
+    <h4>Structure of a Kraken Project</h4>
                 <pre class="prettyprint lang-html">
  /config            - Application and middleware configuration
  /controllers       - Controllers
@@ -333,19 +333,19 @@ Listening on 8000
  index.js           - Application entry point
                 </pre>
 
-                <p>
-                    Let's say you want to create a simple application. Typically, most of the action would happen in
-                    your index.js file (middleware, configuration, routes, logic, etc). However as your application
-                    grows, this becomes unmanageable and messy. Kraken helps you stay organized by
-                    imposing a sound structure and strategy.
-                </p>
+    <p>
+        Let's say you want to create a simple application. Typically, most of the action would happen in
+        your index.js file (middleware, configuration, routes, logic, etc). However as your application
+        grows, this becomes unmanageable and messy. Kraken helps you stay organized by
+        imposing a sound structure and strategy.
+    </p>
 
-                <p>
-                    First let's look at our basic
-                    <code>index.js</code> entry point.
+    <p>
+        First let's look at our basic
+        <code>index.js</code> entry point.
 
-                    You will very quickly notice that its very small.
-                </p>
+        You will very quickly notice that its very small.
+    </p>
                 <pre class="prettyprint linenums">
 'use strict';
 
@@ -375,61 +375,87 @@ kraken.create(app).listen(function (err) {
     }
 });
                 </pre>
-                <p>
-                    As you can see, the entry point simply provides hooks for configuration, and request-specific
-                    functionality
-                    that is called at the start of the request, as well as before and after the routing takes place.
-                    See the <a href="#">Requests Served</a> example to get a better understanding of how these work.
-                </p>
+    <p>
+        As you can see, the entry point simply provides hooks for configuration, and request-specific
+        functionality
+        that is called at the start of the request, as well as before and after the routing takes place.
+        See the <a href="#">Requests Served</a> example to get a better understanding of how these work.
+    </p>
 
-                <p>
-                    So, where's all the configuration? Where are the routes?
-                </p>
-            </section>
-            <section>
-                <h2>Configuration</h2>
+    <p>
+        So, where's all the configuration? Where are the routes?
+    </p>
+</section>
+<section>
+    <h2>Configuration</h2>
 
-                <p>
-                    Kraken's configuration can be found in the <code>/config/app.json</code> file.
-                </p>
+    <p>
+        Kraken's configuration can be found in the <code>/config/app.json</code> file.
+    </p>
 
-                <p>
-                    This json file contains key value pairs that are loaded at runtime. So instead of hardcoding these
-                    values in your entry point, they remain external to your applications code.
-                </p>
-                <h4>Development vs Production environments</h4>
+    <p>
+        This json file contains key value pairs that are loaded at runtime. So instead of hardcoding these
+        values in your entry point, they remain external to your applications code.
+    </p>
+    <h4>Development vs Production environments</h4>
 
-                <p>
-                    A common scenario is that development environments have slightly different parameters than
-                    production
-                    (e.g.: Port numbers, host names, etc). Since we are loading the configuration from a file, Kraken
-                    allows you
-                    to define a second file <code>/config/app-developement.json</code> with alternate values.
-                </p>
+    <p>
+        A common scenario is that development environments have slightly different parameters than
+        production
+        (e.g.: Port numbers, host names, etc). Since we are loading the configuration from a file, Kraken
+        allows you
+        to define a second file <code>/config/app-developement.json</code> with alternate values.
+    </p>
 
-                <p>
-                    You can control which file is loaded by defining an environment variable: <code>NODE_ENV</code> and
-                    setting its value to <code>production</code> or <code>development</code> as appropriate.
-                </p>
+    <p>
+        You can control which file is loaded by defining an environment variable: <code>NODE_ENV</code> and
+        setting its value to <code>production</code> or <code>development</code> as appropriate.
+    </p>
 
-                <p>
-                    The advantage of this is that all your application configuration is in a single, well-known place;
-                    and you can swap it out without having to touch a single line of code.
-                </p>
-            </section>
-            <section>
-                <h2>Routes</h2>
+    <p>
+        The advantage of this is that all your application configuration is in a single, well-known place;
+        and you can swap it out without having to touch a single line of code.
+    </p>
+</section>
+<section>
+    <h2>Security</h2>
 
-                <p>
-                    As your application starts to grow, its important to keep things organized. Otherwise, it will be
-                    hard to read, write and maintain the application. Kraken moves the routing logic into separate files
-                    in the <code>/controllers</code> folder, allowing you to group routes by functionality.
-                </p>
-                <p>
-                    If you wanted to make a route for your home page, you would create a
-                    <code>controllers/index.js</code> file that
-                    looks as follows:
-                </p>
+    <p>
+        Security is provided out-of-the-box by the <a href="http://github.com/paypal/lusca">Lusca</a> module.
+        Lusca is middleware for express, and it follows industry best practices set by <a href="http://www.owasp.org">OWASP</a>
+        by enabling the following request/response headers for all calls:
+    <ul>
+        <li><a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">Cross Site Request Forgery</a>
+            (CSRF) headers.
+        </li>
+        <li><a href="https://www.owasp.org/index.php/Content_Security_Policy"> Content Security Policy </a> (CPS)
+            headers.
+        </li>
+        <li><a href="https://www.owasp.org/index.php/Clickjacking"> Platform for Privacy Preferences Project</a> (P3P)
+            headers.
+        </li>
+        <li><a href="http://support.microsoft.com/kb/290333"> X-FRAME-OPTIONS</a> to prevent clickjacking</li>
+    </ul>
+    </p>
+    <p>
+        All of these are enabled by default. If you want to disable them, please see the Lusca <a
+            href="http://github.com/paypal/lusca">Readme</a>
+    </p>
+</section>
+<section>
+    <h2>Routes</h2>
+
+    <p>
+        As your application starts to grow, its important to keep things organized. Otherwise, it will be
+        hard to read, write and maintain it. Kraken moves the routing logic into separate files
+        in the <code>/controllers</code> folder, allowing you to group routes by functionality.
+    </p>
+
+    <p>
+        If you wanted to make a route for your home page, you would create a
+        <code>controllers/index.js</code> file that
+        looks as follows:
+    </p>
                 <pre class="prettyprint linenums">
 'use strict';
 
@@ -443,10 +469,110 @@ module.exports = function (server) {
     });
 };
                 </pre>
-            </section>
+    <p>This file would define the routes and the logic for the home page. The advantage of keeping routes and logics
+        segregated in individual files starts to show as the application grows. If something fails, it's very easy
+        to pinpoint where things went wrong.
+    </p>
 
-        </div>
-    </div>
+    <p>
+        Another equally important advantage for large teams is that it's very easy for somebody new to understand
+        the project structure and get up to speed on where things are, and how they work.
+    </p>
+
+    <p>
+        Kraken is built on top of express, so the rest of the logic should be familiar to Node developers</p>
+</section>
+<section>
+    <h2>Templates</h2>
+
+    <p>
+        Kraken uses LinkedIn's <a href="http://linkedin.github.io/dustjs/">DustJS</a> as the templating language of
+        choice (This can be changed by the user if desired). <a href="http://github.com/adaro">Adaro</a> is the module
+        responsible for rendering and managing the templates.
+    </p>
+
+    <p>
+        The templates are loaded from the <code>./public/templates/</code> directory. Because they reside in the public
+        folder, this allows Kraken to use the same templates on the server side as well as the client side, allowing you
+        to reuse code and practice <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> principles
+    </p>
+</section>
+<section>
+    <h2>Localization</h2>
+
+    <p>
+        If we wanted to greet our customers, a basic template would probably look something like this:
+    </p>
+    <pre class="prettyprint lang-html">
+...
+   &lt;h1&gt;Hello {name}!&lt;/h1&gt;
+...</pre>
+    <p>
+        What if we wanted to greet customers in different languages? Thanks to <a
+            href="http://github.com/makara">Makara</a>, Kraken has
+        the ability to load content bundles on the fly, based on the request context. If we wanted to greet a
+        user in their native language (e.g.: Spanish), we can simply add this context to the response before rendering
+        the template:
+    </p>
+    <pre class="prettyprint">
+...
+var customerLocality = "es_ES";
+res.locals.locality = customerLocality;
+var model = {name: 'Antonio Banderas'};
+res.render(index,model);
+...
+    </pre>
+    <p>
+        We would also change our template as follows, using a <code>@pre content</code> tag:
+    </p>
+    <pre class="prettyprint lang-html">
+...
+   &lt;h1&gt;{@pre type="content" key="index.greeting"/}&lt;/h1&gt;
+...</pre>
+    <p>
+        This instructs the framework to pick up the index.greeting string from one of the locale content bundles.
+    </p>
+
+    <p>
+        The <code>locales/</code> directory holds these bundles, organized by country and language. The bundles are
+        nothing more than
+        simple key=value .property files. If our sample application caters to English and Spanish speakers, we would
+        create two bundles:
+    </p>
+
+    <p>
+        <code>locales/<strong>US/en/</strong>index.properties</code> to hold <code>index.greeting=Hello
+        {name}!</code><br>
+        <code>locales/<strong>ES/es/</strong>index.properties</code> to hold <code>index.greeting=Hola {name}!</code>
+    </p>
+
+    <p>
+        So, in the above example, since the locality is set to <code>es_ES</code>, the framework would pick the second
+        bundle, and display:
+    </p>
+        <pre class="prettyprint">
+
+        Hola Antonio Banderas!
+    </pre>
+
+</section>
+<section>
+    <h2>Documentation</h2>
+
+    <p>
+        As you can see, Kraken has been built with ease-of-use in mind. It will keep your application well organized
+        from the get-go, and it will do so transparently, without getting in your way.
+    </p>
+    <p>
+        To view the full documentation please visit <a href="http://github.com/paypal/kraken-js">Kraken-JS</a> on GitHub
+    </p>
+    <p>
+        If you like this project, please follow it on GitHub!
+    </p>
+</section>
+
+</div>
+</div>
 </div>
 <footer>
     <div class="wrapper">

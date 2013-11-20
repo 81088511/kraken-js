@@ -436,11 +436,14 @@ li.kraken .hex2 div:first-of-type {
 
 .staticMenu ul li{
     list-style: none;
-    font-size: .8em;
+    font-size: .7em;
     margin: 0;
-    padding: 0 0 .7em 0;
+    padding: 0 0 .5em 0;
     font-weight: 200;
+}
 
+.staticMenu a{
+    text-decoration: none;
 }
 .docsContent{
     margin: 0 0 0 240px;

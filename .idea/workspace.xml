@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
     </list>
     <ignored path="kraken-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/humans.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383239820103" ignored="false" />
-    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384909069722" ignored="false" />
-    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384903495501" ignored="false" />
+    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384913983277" ignored="false" />
+    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384914102351" ignored="false" />
     <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/config.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
@@ -156,7 +157,7 @@
     <file path="$PROJECT_DIR$/../oso/autoPopulate/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384888674837" ignored="false" />
     <file path="$PROJECT_DIR$/../oso/autoPopulate/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384890509157" ignored="false" />
     <file path="$PROJECT_DIR$/../oso/autoPopulate/js/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
-    <file path="/dummy.xml" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384909017235" ignored="false" />
+    <file path="/dummy.xml" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384913618090" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,22 +248,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="426" column="16" selection-start="15256" selection-end="15256" vertical-scroll-proportion="0.5945946">
+            <state line="566" column="120" selection-start="19514" selection-end="19514" vertical-scroll-proportion="-15.875">
               <folding>
-                <marker date="1384909074000" expanded="true" signature="1120:1273" placeholder="..." />
-                <marker date="1384909074000" expanded="true" signature="1213:1241" placeholder="..." />
+                <marker date="1384913985000" expanded="true" signature="1120:1273" placeholder="..." />
+                <marker date="1384913985000" expanded="true" signature="1213:1241" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="454" column="17" selection-start="8097" selection-end="8097" vertical-scroll-proportion="0.0">
+            <state line="445" column="25" selection-start="7998" selection-end="7998" vertical-scroll-proportion="-2.8552437">
               <folding>
                 <element signature="e#4401#5064#2" expanded="true" />
               </folding>
@@ -298,9 +299,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/humans.txt" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -616,8 +617,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1384909074000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384909074000" expanded="true" signature="1213:1241" placeholder="..." />
+            <marker date="1384913985000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1384913985000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -705,21 +706,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="454" column="17" selection-start="8097" selection-end="8097" vertical-scroll-proportion="0.0">
+        <state line="566" column="120" selection-start="19514" selection-end="19514" vertical-scroll-proportion="-15.875">
           <folding>
-            <element signature="e#4401#5064#2" expanded="true" />
+            <marker date="1384913985000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1384913985000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="426" column="16" selection-start="15256" selection-end="15256" vertical-scroll-proportion="0.5945946">
+        <state line="445" column="25" selection-start="7998" selection-end="7998" vertical-scroll-proportion="-2.8552437">
           <folding>
-            <marker date="1384909074000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384909074000" expanded="true" signature="1213:1241" placeholder="..." />
+            <element signature="e#4401#5064#2" expanded="true" />
           </folding>
         </state>
       </provider>
