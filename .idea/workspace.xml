@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/img/OSSLogo.png" afterPath="$PROJECT_DIR$/img/_OSSLogo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/OSSLogo.png" afterPath="$PROJECT_DIR$/img/OSSLogo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kraken-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/humans.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383239820103" ignored="false" />
-    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384979975290" ignored="false" />
-    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384978563513" ignored="false" />
+    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384986987487" ignored="false" />
+    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384990367264" ignored="false" />
     <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/config.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
@@ -25,7 +28,7 @@
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/specifics.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/stylesheet.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
-    <file path="/Dummy.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384549626511" ignored="false" />
+    <file path="/Dummy.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384984605123" ignored="false" />
     <file path="$PROJECT_DIR$/../falcon-app/Gruntfile.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
     <file path="$PROJECT_DIR$/../falcon-app/templates.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
     <file path="$PROJECT_DIR$/../falcon-app/controllers/create.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
@@ -151,7 +154,7 @@
     <file path="$USER_HOME$/temp/leap/cloth.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384755474457" ignored="false" />
     <file path="/cloth.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384755989277" ignored="false" />
     <file path="$PROJECT_DIR$/../oso/autoPopulate/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384903478286" ignored="false" />
-    <file path="$PROJECT_DIR$/../oso/autoPopulate/css/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384903519083" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/css/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384984614313" ignored="false" />
     <file path="$PROJECT_DIR$/../oso/autoPopulate/projects.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384891688384" ignored="false" />
     <file path="/projects.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384817228577" ignored="false" />
     <file path="$PROJECT_DIR$/../oso/autoPopulate/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384888674837" ignored="false" />
@@ -228,18 +231,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="humans.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/humans.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -249,25 +240,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="310" column="51" selection-start="10412" selection-end="10412" vertical-scroll-proportion="0.5319813">
+            <state line="229" column="11" selection-start="8199" selection-end="8199" vertical-scroll-proportion="-9.241072">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1384979991000" expanded="true" signature="1120:1273" placeholder="..." />
-                <marker date="1384979991000" expanded="true" signature="1213:1241" placeholder="..." />
+                <marker date="1384989057000" expanded="true" signature="1120:1273" placeholder="..." />
+                <marker date="1384989057000" expanded="true" signature="1213:1241" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="24" selection-start="2471" selection-end="2471" vertical-scroll-proportion="-12.28">
+            <state line="414" column="20" selection-start="7632" selection-end="7632" vertical-scroll-proportion="-0.33435583">
               <folding>
-                <element signature="e#4426#5089#2" expanded="true" />
+                <element signature="e#4536#5199#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -302,8 +293,8 @@
       <list>
         <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -624,8 +615,8 @@
         <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1384979991000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384979991000" expanded="true" signature="1213:1241" placeholder="..." />
+            <marker date="1384989057000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1384989057000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -648,7 +639,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="211" column="23" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4426#5089#2" expanded="true" />
+            <element signature="e#4536#5199#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -663,16 +654,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/humans.txt">
@@ -696,6 +677,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.51583713">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -713,22 +704,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="24" selection-start="2471" selection-end="2471" vertical-scroll-proportion="-12.28">
+        <state line="229" column="11" selection-start="8199" selection-end="8199" vertical-scroll-proportion="-9.241072">
           <folding>
-            <element signature="e#4426#5089#2" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1384989057000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1384989057000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="51" selection-start="10412" selection-end="10412" vertical-scroll-proportion="0.5319813">
+        <state line="414" column="20" selection-start="7632" selection-end="7632" vertical-scroll-proportion="-0.33435583">
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1384979991000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384979991000" expanded="true" signature="1213:1241" placeholder="..." />
+            <element signature="e#4536#5199#2" expanded="true" />
           </folding>
         </state>
       </provider>

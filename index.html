@@ -37,13 +37,15 @@
         <ul>
             <li class="kraken"><a href="#" title="Home">
                 <div class="hex2">
-                    <div>⬢</div>
+                    
                     <div>K</div>
                 </div>
             </a></li>
-            <li>Documentation</li>
-            <li>Examples</li>
-            <li><img src="img/OSSLogo.png" alt="PayPal Open Source"></li>
+            <li><a href="#QuickStart">Get Started</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Examples</a></li>
+            <li><a href="http://paypal.github.io" target="_blank"><img src="img/OSSLogo.png"
+                                                                       alt="PayPal Open Source"></a></li>
         </ul>
     </div>
     <a href="https://github.com/paypal/kraken-js"><img style="position: absolute; top: 0; right: 0; border: 0;"
@@ -58,7 +60,7 @@
             <img src="img/TextLogo@High.png" alt="KrakenJS" height="65">
 
             <h1>
-                The Kraken suite is an enterprise-grade web application framework for node.js built on top of express.
+                The kraken suite is an enterprise-grade web application framework for node.js built on top of express.
                 It allows you to build secure, scalable, and easy to maintain applications in record time.
             </h1>
             <br>
@@ -80,7 +82,7 @@
 
 <div id="InfoBlock">
     <div class="wrapper">
-        <h1>The Kraken Suite</h1>
+        <h1>The kraken suite</h1>
 
         <p>
             Kraken is the main pillar of the framework, but it works in concert with the following modules to provide
@@ -130,7 +132,7 @@
                 <li class="generator" tabindex="4">
                     <a href="#">
                         <div class="hex2">
-                            <div>⬢</div>
+                            
                             <div>G</div>
                         </div>
                         <div>Generator</div>
@@ -147,7 +149,7 @@
                 <li class="shortstop" tabindex="5">
                     <a href="#">
                         <div class="hex2">
-                            <div>⬢</div>
+                            
                             <div>S</div>
                         </div>
                         <div>Shortstop</div>
@@ -166,7 +168,7 @@
                 <li class="findatag" tabindex="6">
                     <a href="#">
                         <div class="hex2">
-                            <div>⬢</div>
+                            
                             <div>F</div>
                         </div>
                         <div>FindATag</div>
@@ -185,7 +187,7 @@
                 <li class="spud" tabindex="7">
                     <a href="#">
                         <div class="hex2">
-                            <div>⬢</div>
+                            
                             <div>S</div>
                         </div>
                         <div>Spud</div>
@@ -204,7 +206,7 @@
                 <li class="enrouten" tabindex="9">
                     <a href="#">
                         <div class="hex2">
-                            <div>⬢</div>
+                            
                             <div>E</div>
                         </div>
                         <div>Enrouten</div>
@@ -224,7 +226,7 @@
                 <li class="webtools" tabindex="10">
                     <a href="#">
                         <div class="hex2">
-                            <div>⬢</div>
+                            
                             <div>W</div>
                         </div>
                         <div>DevTools</div>
@@ -254,7 +256,7 @@
 </div>
 <div class="docsContent">
 <section>
-    <h2>Setting Up</h2>
+    <h2>Quick Start</h2>
     <ol>
         <li><h3>Install the generator</h3>
 
@@ -286,7 +288,8 @@ $ yo kraken
     </pre>
 
             <p>
-                The generator will create a new directory for your application (Based on your answer to the first question),
+                The generator will create a new directory for your application (Based on your answer to the first
+                question),
                 set up an empty project and download all the necessary dependencies.
             </p>
         </li>
@@ -337,47 +340,37 @@ Listening on 8000
                 </pre>
 
     <p>
-        Let's say you want to create a simple application. Typically, most of the action would happen in
-        your index.js file (middleware, configuration, routes, logic, etc). However as your application
+        Let's say you want to create a simple application. As your application
         grows, this becomes unmanageable and messy. Kraken helps you stay organized by
         imposing a sound structure and strategy.
     </p>
 
     <p>
         First let's look at our basic
-        <code>index.js</code> entry point.
-
-        You will very quickly notice that its very small.
+        <code>index.js</code> entry point:
     </p>
                 <pre class="prettyprint linenums">
 'use strict';
-
 var kraken = require('kraken-js'),
     app = {};
 
+// Fired when an app configures itself
 app.configure = function (nconf, next) {
-    // Fired when an app configures itself
     next(null);
 };
 
-app.requestStart = function (server) {
-    // Fired at the beginning of an incoming request
-};
+// Fired at the beginning of an incoming request
+app.requestStart = function (server) { };
 
-app.requestBeforeRoute = function (server) {
-    // Fired before routing occurs
-};
+// Fired before routing occurs
+app.requestBeforeRoute = function (server) { };
 
-app.requestAfterRoute = function requestAfterRoute(server) {
-    // Fired after routing occurs
-};
+// Fired after routing occurs
+app.requestAfterRoute = function requestAfterRoute(server) { };
 
 kraken.create(app).listen(function (err) {
-    if (err) {
-        console.error(err);
-    }
-});
-                </pre>
+    if (err) { console.error(err); }
+});</pre>
     <p>
         As you can see, the entry point simply provides hooks for configuration, and request-specific
         functionality
@@ -397,17 +390,17 @@ kraken.create(app).listen(function (err) {
     </p>
 
     <p>
-        This json file contains key value pairs that are loaded at runtime. So instead of hardcoding these
-        values in your entry point, they remain external to your applications code.
+        This json file contains key value pairs that are loaded at runtime. The advantage of this is that all your
+        application configuration is in a single, well-known place;
+        and you can swap it out without having to touch a single line of code.
     </p>
     <h4>Development vs Production environments</h4>
 
     <p>
         A common scenario is that development environments have slightly different parameters than
         production
-        (e.g.: Port numbers, host names, etc). Since we are loading the configuration from a file, kraken
-        allows you
-        to define a second file <code>/config/app-developement.json</code> with alternate values.
+        (e.g.: Port numbers, host names, etc). Kraken allows you to define a second file <code>./config/app-developement.json</code>
+        with alternate values.
     </p>
 
     <p>
@@ -415,17 +408,13 @@ kraken.create(app).listen(function (err) {
         setting its value to <code>production</code> or <code>development</code> as appropriate.
     </p>
 
-    <p>
-        The advantage of this is that all your application configuration is in a single, well-known place;
-        and you can swap it out without having to touch a single line of code.
-    </p>
 </section>
 <section>
     <h2>Security</h2>
 
     <p>
         Security is provided out-of-the-box by the <a href="http://github.com/paypal/lusca">Lusca</a> module.
-        Lusca is middleware for express, and it follows industry best practices set by <a href="http://www.owasp.org">OWASP</a>
+        Lusca is middleware for express, and it follows <a href="http://www.owasp.org">OWASP</a> best practices
         by enabling the following request/response headers for all calls:
     <ul>
         <li><a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">Cross Site Request Forgery</a>
@@ -441,7 +430,7 @@ kraken.create(app).listen(function (err) {
     </ul>
     </p>
     <p>
-        All of these are enabled by default. If you want to disable them, please see the Lusca <a
+        If you want to disable or configure them, please see the Lusca <a
             href="http://github.com/paypal/lusca">Readme</a>
     </p>
 </section>
@@ -449,37 +438,26 @@ kraken.create(app).listen(function (err) {
     <h2>Routes</h2>
 
     <p>
-        As your application starts to grow, its important to keep things organized. Otherwise, it will be
-        hard to read, write and maintain it. Kraken moves the routing logic into separate files
-        in the <code>/controllers</code> folder, allowing you to group routes by functionality.
+        Kraken moves the routing logic into separate files in the <code>./controllers/</code> folder, allowing you to
+        group routes by functionality.
     </p>
 
     <p>
-        If you wanted to make a route for your home page, you would create a
-        <code>controllers/index.js</code> file that
-        looks as follows:
+        For example, a route for your home page, would use a
+        <code>./controllers/index.js</code> file that looks as follows:
     </p>
                 <pre class="prettyprint linenums">
 'use strict';
-
 module.exports = function (server) {
 
     server.get('/', function (req, res) {
         var model = { name: 'Ash Williams' };
-
         res.render('index', model);
-
     });
-};
-                </pre>
-    <p>This file would define the routes and the logic for the home page. The advantage of keeping routes and logics
+};</pre>
+    <p>This file would define the routes and the logic for the home page. The advantage of keeping routes and logic
         segregated in individual files starts to show as the application grows. If something fails, it's very easy
         to pinpoint where things went wrong.
-    </p>
-
-    <p>
-        Another equally important advantage for large teams is that it's very easy for somebody new to understand
-        the project structure and get up to speed on where things are, and how they work.
     </p>
 
     <p>
@@ -495,43 +473,38 @@ module.exports = function (server) {
     </p>
 
     <p>
-        The templates are loaded from the <code>./public/templates/</code> directory. Because they reside in the public
+        Templates are loaded from the <code>./public/templates/</code> directory. Because they reside in the public
         folder, this allows kraken to use the same templates on the server side as well as the client side, allowing you
-        to reuse code and practice <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> principles
+        to reuse code.
     </p>
+
+    <p>
+        If we wanted to greet our customers, a basic template would be:
+    </p>
+    <pre class="prettyprint lang-html">
+   &lt;h1&gt;Hello {name}!&lt;/h1&gt;    </pre>
+
 </section>
 <section>
     <h2>Localization</h2>
 
     <p>
-        If we wanted to greet our customers, a basic template would probably look something like this:
-    </p>
-    <pre class="prettyprint lang-html">
-...
-   &lt;h1&gt;Hello {name}!&lt;/h1&gt;
-...</pre>
-    <p>
-        What if we wanted to greet customers in different languages? Thanks to <a
-            href="http://github.com/makara">Makara</a>, kraken has
+        Thanks to <a href="http://github.com/makara">Makara</a>, kraken has
         the ability to load content bundles on the fly, based on the request context. If we wanted to greet a
         user in their native language (e.g.: Spanish), we can simply add this context to the response before rendering
         the template:
     </p>
     <pre class="prettyprint">
-...
 var customerLocality = "es_ES";
 res.locals.locality = customerLocality;
 var model = {name: 'Antonio Banderas'};
 res.render(index,model);
-...
     </pre>
     <p>
         We would also change our template as follows, using a <code>@pre content</code> tag:
     </p>
     <pre class="prettyprint lang-html">
-...
-   &lt;h1&gt;{@pre type="content" key="index.greeting"/}&lt;/h1&gt;
-...</pre>
+   &lt;h1&gt;{@pre type="content" key="index.greeting"/}&lt;/h1&gt;</pre>
     <p>
         This instructs the framework to pick up the index.greeting string from one of the locale content bundles.
     </p>
@@ -554,9 +527,7 @@ res.render(index,model);
         bundle, and display:
     </p>
         <pre class="prettyprint">
-
-        Hola Antonio Banderas!
-    </pre>
+        Hola Antonio Banderas!</pre>
 
 </section>
 <section>
