@@ -41,12 +41,14 @@
                     <div>K</div>
                 </div>
             </a></li>
-            <li><a href="#QuickStart">Getting Started</a></li>
             <li>Documentation</li>
-            <li>Team + Contact</li>
+            <li>Examples</li>
             <li><img src="img/OSSLogo.png" alt="PayPal Open Source"></li>
         </ul>
     </div>
+    <a href="https://github.com/paypal/kraken-js"><img style="position: absolute; top: 0; right: 0; border: 0;"
+                                                       src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+                                                       alt="Fork me on GitHub"></a>
 </header>
 <div id="MainBlock">
     <div class="wrapper">
@@ -56,17 +58,16 @@
             <img src="img/TextLogo@High.png" alt="KrakenJS" height="65">
 
             <h1>
-                The Kraken Suite is an enterprise-grade web application framework for NodeJS.
-                It will allow you to build secure, scalable, and easy to maintain applications in record time!
+                The Kraken suite is an enterprise-grade web application framework for node.js built on top of express.
+                It allows you to build secure, scalable, and easy to maintain applications in record time.
             </h1>
             <br>
-            <a class="download" href="http://github.com/PayPal/kraken-js">
-                Download Kraken
+            <a class="download" href="#QuickStart">
+                Get Started
             </a>
             <ul>
-                <li><a href="http://github.com/PayPal/kraken-js">GitHub</a></li>
-                <li><a href="http://github.com/PayPal/kraken-js">Examples</a></li>
-                <li>Version 1.0</li>
+                <li><a title="Build Status" href="https://travis-ci.org/paypal/kraken-js"><img
+                        src="https://travis-ci.org/paypal/kraken-js.png"></a></li>
             </ul>
         </div>
     </div>
@@ -82,7 +83,7 @@
         <h1>The Kraken Suite</h1>
 
         <p>
-            KrakenJS is the main pillar of the framework, but it works in concert with the following modules to provide
+            Kraken is the main pillar of the framework, but it works in concert with the following modules to provide
             a robust base for your applications.
             Each of these modules can also be used independently according to your project needs.
         </p>
@@ -122,9 +123,7 @@
         <hr>
 
         <div>
-            <h1>Supporting Cast</h1>
-
-            <p>These are additional dependencies, tools and utilities for the Kraken Suite</p>
+            <p>Additional dependencies, tools and utilities for the kraken suite</p>
             <br>
             <ul id="cast">
 
@@ -141,7 +140,7 @@
                         <h4>Generator</h4>
 
                         <p>
-                            A Yeoman Generator that will allow you to quickly set up Kraken projects
+                            A Yeoman generator that will allow you to quickly set up kraken projects
                         </p>
                     </div>
                 </li>
@@ -228,7 +227,7 @@
                             <div>⬢</div>
                             <div>W</div>
                         </div>
-                        <div>WebTools</div>
+                        <div>DevTools</div>
 
                     </a>
 
@@ -236,7 +235,7 @@
                         <strong>DevTools</strong>
 
                         <p>
-                            A collection of Development-time tools for Kraken applications.
+                            A collection of development-time tools for kraken applications.
                         </p>
                     </div>
                 </li>
@@ -248,7 +247,7 @@
 </div>
 <div class="docs">
 <div class="wrapper">
-<h1 id="QuickStart">Getting started with Kraken</h1>
+<h1 id="QuickStart">Getting started with kraken</h1>
 
 <div class="staticMenu">
 
@@ -256,19 +255,20 @@
 <div class="docsContent">
 <section>
     <h2>Setting Up</h2>
+    <ol>
+        <li><h3>Install the generator</h3>
 
-    <p>
-        The fastest way to get started with Kraken is to use the Yeoman generator for it. Start by
-        installing it
-        globally
-        using <strong>npm</strong>: <code>sudo npm install -g generator-kraken</code>
-    </p>
+            <p>
+                Start by installing the generator <strong>globally</strong> using <strong>npm</strong>:
+                <code>sudo npm install -g generator-kraken</code>
+            </p>
+        </li>
+        <li><h3>Create a project</h3>
 
-    <p>
-        Once installed, you can create a basic project using the generator. Type <code>yo kraken</code> and
-        follow
-        the prompts; you will be asked for a project name, description and author name.
-    </p>
+            <p>
+                Once installed, you can create a basic project using the generator. Type <code>yo kraken</code> and
+                follow the prompts:
+            </p>
     <pre class="prettyprint lang-html">
 $ yo kraken
 
@@ -281,18 +281,20 @@ $ yo kraken
    `\ `)(' /'
 
 [?] Application name: HelloWorld
-[?] Description: A test Kraken application
+[?] Description: A test kraken application
 [?] Author: YourName GoesHere
     </pre>
 
-    <p>
-        The generator will create a directory for your application (Based on your answer to the first
-        question),
-        set
-        up an empty project
-        and download all the necessary dependencies. To run your project, just go into your folder and type
-        <code>npm start</code>
-    </p>
+            <p>
+                The generator will create a new directory for your application (Based on your answer to the first question),
+                set up an empty project and download all the necessary dependencies.
+            </p>
+        </li>
+        <li><h3>Start your server</h3>
+
+            <p>To run your project, just go into the newly created directory and type
+                <code>npm start</code>
+            </p>
         <pre class="prettyprint lang-html">
 $ cd HelloWorld
 $ npm start
@@ -302,12 +304,13 @@ $ npm start
 
 Listening on 8000
         </pre>
-    <p>
-        Your Kraken application will start up on port 8000. You can visit it at <a
-            href="http://localhost:8000">http://localhost:8000</a>. If all goes well, your very polite
-        application will say hello.
-    </p>
-
+            <p>
+                Your kraken application will start up on port 8000. You can visit it at
+                <a target="_blank" href="http://localhost:8000">http://localhost:8000</a>.
+                If all goes well, your very polite application will say hello.
+            </p>
+        </li>
+    </ol>
 </section>
 
 <section>
@@ -320,7 +323,7 @@ Listening on 8000
 
         Let's start by looking at the base structure of the project you just created:
     </p>
-    <h4>Structure of a Kraken Project</h4>
+    <h4>Structure of a kraken project</h4>
                 <pre class="prettyprint lang-html">
  /config            - Application and middleware configuration
  /controllers       - Controllers
@@ -402,7 +405,7 @@ kraken.create(app).listen(function (err) {
     <p>
         A common scenario is that development environments have slightly different parameters than
         production
-        (e.g.: Port numbers, host names, etc). Since we are loading the configuration from a file, Kraken
+        (e.g.: Port numbers, host names, etc). Since we are loading the configuration from a file, kraken
         allows you
         to define a second file <code>/config/app-developement.json</code> with alternate values.
     </p>
@@ -493,7 +496,7 @@ module.exports = function (server) {
 
     <p>
         The templates are loaded from the <code>./public/templates/</code> directory. Because they reside in the public
-        folder, this allows Kraken to use the same templates on the server side as well as the client side, allowing you
+        folder, this allows kraken to use the same templates on the server side as well as the client side, allowing you
         to reuse code and practice <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY</a> principles
     </p>
 </section>
@@ -509,7 +512,7 @@ module.exports = function (server) {
 ...</pre>
     <p>
         What if we wanted to greet customers in different languages? Thanks to <a
-            href="http://github.com/makara">Makara</a>, Kraken has
+            href="http://github.com/makara">Makara</a>, kraken has
         the ability to load content bundles on the fly, based on the request context. If we wanted to greet a
         user in their native language (e.g.: Spanish), we can simply add this context to the response before rendering
         the template:
@@ -560,12 +563,14 @@ res.render(index,model);
     <h2>Documentation</h2>
 
     <p>
-        As you can see, Kraken has been built with ease-of-use in mind. It will keep your application well organized
+        As you can see, kraken has been built with ease-of-use in mind. It will keep your application well organized
         from the get-go, and it will do so transparently, without getting in your way.
     </p>
+
     <p>
-        To view the full documentation please visit <a href="http://github.com/paypal/kraken-js">Kraken-JS</a> on GitHub
+        To view the full documentation please visit <a href="http://github.com/paypal/kraken-js">kraken</a> on GitHub
     </p>
+
     <p>
         If you like this project, please follow it on GitHub!
     </p>
