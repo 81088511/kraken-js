@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/oldLogo@Low.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/TextLogo@High.png" afterPath="$PROJECT_DIR$/img/TextLogo@High.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kraken-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/humans.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383239820103" ignored="false" />
-    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384815484850" ignored="false" />
-    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384813826449" ignored="false" />
-    <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384814982782" ignored="false" />
+    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384909069722" ignored="false" />
+    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384903495501" ignored="false" />
+    <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/config.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/appcore.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
@@ -25,7 +20,7 @@
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/util/configutil.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/util/pathutil.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383840725138" ignored="false" />
-    <file path="/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384549881286" ignored="false" />
+    <file path="/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384890509157" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/specifics.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/stylesheet.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
@@ -154,6 +149,14 @@
     <file path="/cloth.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384755031434" ignored="false" />
     <file path="$USER_HOME$/temp/leap/cloth.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384755474457" ignored="false" />
     <file path="/cloth.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384755989277" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384903478286" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/css/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384903519083" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/projects.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384891688384" ignored="false" />
+    <file path="/projects.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384817228577" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384888674837" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/README.md" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384890509157" ignored="false" />
+    <file path="$PROJECT_DIR$/../oso/autoPopulate/js/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
+    <file path="/dummy.xml" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384909017235" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,10 +217,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CONTRIBUTING.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CONTRIBUTING.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3695652">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -244,13 +247,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="19" selection-start="10991" selection-end="10991" vertical-scroll-proportion="-10.25">
+            <state line="426" column="16" selection-start="15256" selection-end="15256" vertical-scroll-proportion="0.5945946">
               <folding>
-                <marker date="1384815544000" expanded="true" signature="1120:1273" placeholder="..." />
-                <marker date="1384815544000" expanded="true" signature="1213:1241" placeholder="..." />
+                <marker date="1384909074000" expanded="true" signature="1120:1273" placeholder="..." />
+                <marker date="1384909074000" expanded="true" signature="1213:1241" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -351,20 +354,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kraken-site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -627,8 +616,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1384815544000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384815544000" expanded="true" signature="1213:1241" placeholder="..." />
+            <marker date="1384909074000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1384909074000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -699,6 +688,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="454" column="17" selection-start="8097" selection-end="8097" vertical-scroll-proportion="0.0">
@@ -708,31 +714,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="321" column="19" selection-start="10991" selection-end="10991" vertical-scroll-proportion="-10.25">
+        <state line="426" column="16" selection-start="15256" selection-end="15256" vertical-scroll-proportion="0.5945946">
           <folding>
-            <marker date="1384815544000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384815544000" expanded="true" signature="1213:1241" placeholder="..." />
+            <marker date="1384909074000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1384909074000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3695652">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
   </component>

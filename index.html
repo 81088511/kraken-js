@@ -304,28 +304,47 @@ Listening on 8000
         </pre>
                 <p>
                     Your Kraken application will start up on port 8000. You can visit it at <a
-                        href="http://localhost:8000">http://localhost:8000</a>
+                        href="http://localhost:8000">http://localhost:8000</a>. If all goes well, your very polite
+                    application will say hello.
                 </p>
 
             </section>
 
             <section>
-                <h2>Configuring Kraken</h2>
+                <h2>Structure of a Project</h2>
+
+                <p>
+                    Kraken keeps your code organized by splitting up the configuration, content+templates and routing
+                    logic into different places so that it's easy to keep track of everything and to easily swap out
+                    components.
+
+                    Let's start by looking at the base structure of the project you just created:
+                </p>
+                <h4>Structure of a Kraken Project</h4>
+                <pre class="prettyprint lang-html">
+ /config            - Application and middleware configuration
+ /controllers       - Controllers
+ /lib               - Custom developer libraries and other code
+ /locales           - Local-based content
+ /models            - Models
+ /public            - Web resources that are publicly available
+ /public/templates  - Server and browser-side templates
+ /tests             - Unit and functional test cases
+ index.js           - Application entry point
+                </pre>
 
                 <p>
                     Let's say you want to create a simple application. Typically, most of the action would happen in
-                    your index.js file. You'd load up your required middleware, configure the server, create all the
-                    routes and maybe even throw in some inline logic because, hey, it's only a couple of lines, right?
-                    As your application grows, this becomes unmanageable and messy. Kraken helps you stay organized by
+                    your index.js file (middleware, configuration, routes, logic, etc). However as your application
+                    grows, this becomes unmanageable and messy. Kraken helps you stay organized by
                     imposing a sound structure and strategy.
-                    </p>
-                <p>
+                </p>
 
-                    Let's inspect a basic Kraken project to understand its structure. First let's look at our basic
+                <p>
+                    First let's look at our basic
                     <code>index.js</code> entry point.
 
-                    You will very quickly notice that its very small. Where's all the configuration? Where are the
-                    routes?
+                    You will very quickly notice that its very small.
                 </p>
                 <pre class="prettyprint linenums">
 'use strict';
@@ -333,28 +352,96 @@ Listening on 8000
 var kraken = require('kraken-js'),
     app = {};
 
-
 app.configure = function (nconf, next) {
     // Fired when an app configures itself
     next(null);
 };
 
-
 app.requestStart = function (server) {
     // Fired at the beginning of an incoming request
 };
-
 
 app.requestBeforeRoute = function (server) {
     // Fired before routing occurs
 };
 
+app.requestAfterRoute = function requestAfterRoute(server) {
+    // Fired after routing occurs
+};
 
 kraken.create(app).listen(function (err) {
     if (err) {
         console.error(err);
     }
 });
+                </pre>
+                <p>
+                    As you can see, the entry point simply provides hooks for configuration, and request-specific
+                    functionality
+                    that is called at the start of the request, as well as before and after the routing takes place.
+                    See the <a href="#">Requests Served</a> example to get a better understanding of how these work.
+                </p>
+
+                <p>
+                    So, where's all the configuration? Where are the routes?
+                </p>
+            </section>
+            <section>
+                <h2>Configuration</h2>
+
+                <p>
+                    Kraken's configuration can be found in the <code>/config/app.json</code> file.
+                </p>
+
+                <p>
+                    This json file contains key value pairs that are loaded at runtime. So instead of hardcoding these
+                    values in your entry point, they remain external to your applications code.
+                </p>
+                <h4>Development vs Production environments</h4>
+
+                <p>
+                    A common scenario is that development environments have slightly different parameters than
+                    production
+                    (e.g.: Port numbers, host names, etc). Since we are loading the configuration from a file, Kraken
+                    allows you
+                    to define a second file <code>/config/app-developement.json</code> with alternate values.
+                </p>
+
+                <p>
+                    You can control which file is loaded by defining an environment variable: <code>NODE_ENV</code> and
+                    setting its value to <code>production</code> or <code>development</code> as appropriate.
+                </p>
+
+                <p>
+                    The advantage of this is that all your application configuration is in a single, well-known place;
+                    and you can swap it out without having to touch a single line of code.
+                </p>
+            </section>
+            <section>
+                <h2>Routes</h2>
+
+                <p>
+                    As your application starts to grow, its important to keep things organized. Otherwise, it will be
+                    hard to read, write and maintain the application. Kraken moves the routing logic into separate files
+                    in the <code>/controllers</code> folder, allowing you to group routes by functionality.
+                </p>
+                <p>
+                    If you wanted to make a route for your home page, you would create a
+                    <code>controllers/index.js</code> file that
+                    looks as follows:
+                </p>
+                <pre class="prettyprint linenums">
+'use strict';
+
+module.exports = function (server) {
+
+    server.get('/', function (req, res) {
+        var model = { name: 'Ash Williams' };
+
+        res.render('index', model);
+
+    });
+};
                 </pre>
             </section>
 
