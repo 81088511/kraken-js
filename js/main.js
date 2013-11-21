@@ -19,7 +19,7 @@ $(function () {
     var index=$("<ul></ul>");
     $(".docsContent section").each(function(){
 
-        var title = $($(this).find("h2")[0]);
+        var title = $($(this).find("h3")[0]);
         var rand = title.html();//+Math.random();
         title.attr('id',rand);
         var entry = $("<a></a>");

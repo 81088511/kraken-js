@@ -243,16 +243,16 @@
 <div class="staticMenu"></div>
 <div class="docsContent">
 <section>
-    <h2>Quick Start</h2>
+    <h3>Quick Start</h3>
     <ol>
-        <li><h3>Install the generator</h3>
+        <li><h4>Install the generator</h4>
 
             <p>
                 Start by installing the generator <strong>globally</strong> using <strong>npm</strong>:
                 <br><code>sudo npm install -g generator-kraken</code>
             </p>
         </li>
-        <li><h3>Create a project</h3>
+        <li><h4>Create a project</h4>
 
             <p>
                 Once installed, you can create a basic project using the generator. Type <code>yo kraken</code> and
@@ -280,7 +280,7 @@ $ yo kraken
                 set up an empty project and download all the necessary dependencies.
             </p>
         </li>
-        <li><h3>Start your server</h3>
+        <li><h4>Start your server</h4>
 
             <p>To run your project, just go into the newly created directory and type
                 <code>npm start</code>
@@ -303,7 +303,7 @@ Listening on 8000</pre>
 </section>
 
 <section>
-    <h2>Structure of a Project</h2>
+    <h3>Structure of a Project</h3>
 
     <p>
         Kraken keeps your code organized by splitting up the configuration, content+templates and routing
@@ -312,7 +312,7 @@ Listening on 8000</pre>
 
         Let's start by looking at the base structure of the project you just created:
     </p>
-    <h4>Structure of a kraken project</h4>
+    <h5>Structure of a kraken project</h5>
 <pre class="prettyprint lang-html">
 /config
 Application and middleware configuration
@@ -385,7 +385,7 @@ kraken.create(app).listen(function (err) {
     </p>
 </section>
 <section>
-    <h2>Configuration</h2>
+    <h3>Configuration</h3>
 
     <p>
         Kraken's configuration can be found in the <code>/config/app.json</code> file.
@@ -412,7 +412,7 @@ kraken.create(app).listen(function (err) {
 
 </section>
 <section>
-    <h2>Security</h2>
+    <h3>Security</h3>
 
     <p>
         Security is provided out-of-the-box by the <a href="http://github.com/paypal/lusca">Lusca</a> module.
@@ -437,7 +437,7 @@ kraken.create(app).listen(function (err) {
     </p>
 </section>
 <section>
-    <h2>Routes</h2>
+    <h3>Routes</h3>
 
     <p>
         Kraken moves the routing logic into separate files in the <code>./controllers/</code> folder, allowing you to
@@ -466,7 +466,7 @@ module.exports = function (server) {
         Kraken is built on top of express, so the rest of the logic should be familiar to Node developers</p>
 </section>
 <section>
-    <h2>Templates</h2>
+    <h3>Templates</h3>
 
     <p>
         Kraken uses LinkedIn's <a href="http://linkedin.github.io/dustjs/">DustJS</a> as the templating language of
@@ -488,7 +488,7 @@ module.exports = function (server) {
 
 </section>
 <section>
-    <h2>Localization</h2>
+    <h3>Localization</h3>
 
     <p>
         Thanks to <a href="http://github.com/makara">Makara</a>, kraken has
@@ -538,7 +538,7 @@ res.render(index,model);</pre>
 
 </section>
 <section>
-    <h2>Documentation</h2>
+    <h3>Documentation</h3>
 
     <p>
         To view the full documentation please visit <a href="http://github.com/paypal/kraken-js">kraken</a> on GitHub
@@ -550,7 +550,7 @@ res.render(index,model);</pre>
 </section>
 
 <section>
-    <h2>FAQ</h2>
+    <h3>FAQ</h3>
     <ul>
         <li>
             <h4>How can I contribute to this project?</h4>
