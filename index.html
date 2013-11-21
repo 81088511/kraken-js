@@ -37,7 +37,7 @@
         <ul>
             <li class="kraken"><a href="#" title="Home">
                 <div class="hex2">
-                    <div>K</div>
+                    <div aria-label="KrakenJS">K</div>
                 </div>
             </a></li>
             <li><a href="#QuickStart">Get Started</a></li>
@@ -72,7 +72,7 @@
                     Get Started
                 </a>
                 <a title="Build Status" href="https://travis-ci.org/paypal/kraken-js"><img
-                        src="https://travis-ci.org/paypal/kraken-js.png" alt="Build Status"></a>
+                        src="https://travis-ci.org/paypal/kraken-js.png" alt="Build Status: Passing|Failing"></a>
 
 
             </div>
@@ -98,25 +98,25 @@
         <div id="modules">
             <ul>
                 <li class="lusca">
-                    <img src="img/Lusca.png" alt="Lusca">
+                    <img src="img/Lusca.png" alt="">
 
                     <div class="moduleTitle">Lusca</div>
                     <a href="http://github.com/paypal/lusca">Application security</a>
                 </li>
                 <li class="makara">
-                    <img src="img/Makara.png" alt="makara">
+                    <img src="img/Makara.png" alt="">
 
                     <div class="moduleTitle">Makara</div>
                     <a href="http://github.com/paypal/makara">Internationalization</a>
                 </li>
                 <li class="adaro">
-                    <img src="img/Adaro.png" alt="Adaro">
+                    <img src="img/Adaro.png" alt="">
 
                     <div class="moduleTitle">Adaro</div>
                     <a href="http://github.com/paypal/adaro">Dust-js Support</a>
                 </li>
                 <li class="kappa">
-                    <img src="img/Kappa.png" alt="Kappa">
+                    <img src="img/Kappa.png" alt="">
 
                     <div class="moduleTitle">Kappa</div>
                     <a href="http://github.com/paypal/kappa">NPM Proxy</a>
@@ -129,7 +129,7 @@
         <hr>
 
         <div>
-            <p>Additional dependencies, tools and utilities for the kraken suite</p>
+            <p>Additional dependencies, tools and utilities for the kraken suite.</p>
 
             <div id="cast">
                 <ul>
@@ -137,7 +137,7 @@
                     <li class="generator">
                         <a target="_blank" href="http://github.com/paypal/generator-kraken">
                             <div class="hex2">
-                                <div>G</div>
+                                <div aria-label="Generator-Kraken">G</div>
                             </div>
                         </a>
 
@@ -152,7 +152,7 @@
                     <li target="_blank" class="enrouten">
                         <a href="http://github.com/paypal/express-enrouten">
                             <div class="hex2">
-                                <div>E</div>
+                                <div aria-label="Enrouten">E</div>
                             </div>
                         </a>
 
@@ -168,7 +168,7 @@
                     <li target="_blank" class="webtools">
                         <a href="http://github.com/paypal/kraken-devtools">
                             <div class="hex2">
-                                <div>D</div>
+                                <div aria-label="Kraken-Devtools">D</div>
                             </div>
                         </a>
 
@@ -240,7 +240,7 @@
 <div class="wrapper">
 <h2 id="QuickStart">Getting started with kraken</h2>
 
-<div class="staticMenu"></div>
+<div class="staticMenu" aria-label="Documentation Menu"></div>
 <div class="docsContent">
 <section>
     <h3>Quick Start</h3>
@@ -418,6 +418,7 @@ kraken.create(app).listen(function (err) {
         Security is provided out-of-the-box by the <a href="http://github.com/paypal/lusca">Lusca</a> module.
         Lusca is middleware for express, and it follows <a href="http://www.owasp.org">OWASP</a> best practices
         by enabling the following request/response headers for all calls:
+    </p>
     <ul>
         <li><a href="https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)">Cross Site Request Forgery</a>
             (CSRF) headers.
@@ -430,7 +431,7 @@ kraken.create(app).listen(function (err) {
         </li>
         <li><a href="http://support.microsoft.com/kb/290333"> X-FRAME-OPTIONS</a> to prevent clickjacking</li>
     </ul>
-    </p>
+
     <p>
         If you want to disable or configure them, please see the Lusca <a
             href="http://github.com/paypal/lusca">Readme</a>
