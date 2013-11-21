@@ -126,8 +126,6 @@ code {
     border: solid 1px #666666;
     background-color: #f0f0f0;
     color: #333;
-    white-space: nowrap;
-
 }
 
 header {
@@ -138,6 +136,7 @@ header {
 header ul {
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 header ul li {
@@ -471,17 +470,33 @@ footer a, .docs a {
     }
 
     header {
-        margin-bottom: 3em;
+        margin-bottom: 1em;
     }
 
     header ul li {
         margin-right: .5em;
+        display: block;
     }
 
     header ul li:last-of-type {
         display: block;
         float: none;
         margin: 1em 0 0 1em;
+        position: absolute;
+        top:0;
+        right: 0;
+    }
+
+    header ul li:first-of-type {
+        margin: 0 0 2em 0;
+    }
+
+    .mainLogo{
+        float: none;
+    }
+
+    #IntroText{
+        margin: 0;
     }
 
     #modules  li {
