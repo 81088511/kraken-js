@@ -227,9 +227,12 @@ div.wrapper {
 }
 
 #IntroText .download {
+    margin: 1em 0;
+}
+
+#IntroText .download a{
     border-radius: 5px;
     padding: .75em;
-    margin: 1em 1em 0 0;
     background-color: #F1F1F2;
     color: #0779BE;
 }

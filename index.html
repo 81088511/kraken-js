@@ -32,27 +32,30 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-<header>
+<header role="banner">
     <div class="wrapper">
-        <ul>
-            <li class="kraken"><a href="#" title="Home">
-                <div class="hex2">
-                    <div aria-label="KrakenJS">K</div>
-                </div>
-            </a></li>
-            <li><a href="#QuickStart">Get Started</a></li>
-            <li><a href="https://github.com/PayPal/kraken-js#kraken">Documentation</a></li>
-            <li><a href="#">Examples</a></li>
-            <li><a href="https://github.com/PayPal/kraken-js">GitHub</a></li>
-            <li><a href="http://paypal.github.io" target="_blank"><img src="img/OSSLogo.png"
-                                                                       alt="PayPal Open Source"></a></li>
-        </ul>
+        <nav role="navigation">
+            <ul>
+                <li class="kraken"><a href="#" title="Home">
+                    <div class="hex2">
+                        <div aria-label="KrakenJS">K</div>
+                    </div>
+                </a></li>
+                <li><a href="#QuickStart">Get Started</a></li>
+                <li><a href="https://github.com/PayPal/kraken-js#kraken">Documentation</a></li>
+                <li><a href="#">Examples</a></li>
+                <li><a href="https://github.com/PayPal/kraken-js">GitHub</a></li>
+                <li><a href="http://paypal.github.io" target="_blank"><img src="img/OSSLogo.png"
+                                                                           alt="PayPal Open Source"></a></li>
+            </ul>
+        </nav>
     </div>
     <!--a id="forkMe" href="https://github.com/paypal/kraken-js"><img
             style="position: absolute; top: 0; right: 0; border: 0;"
             src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
             alt="Fork me on GitHub"></a-->
 </header>
+<main role="main">
 <div id="MainBlock">
     <div class="wrapper">
 
@@ -67,13 +70,17 @@
                     express.
                     It allows you to build secure, scalable, and easy to maintain applications in record time.
                 </h1>
-                <br>
-                <a class="download" href="#QuickStart">
-                    Get Started
-                </a>
-                <a title="Build Status" href="https://travis-ci.org/paypal/kraken-js"><img
-                        src="https://travis-ci.org/paypal/kraken-js.png" alt="Build Status: Passing|Failing"></a>
 
+
+                <div class="download">
+                    <a href="#QuickStart">
+                        Get Started
+                    </a>
+                </div>
+                <div>
+                    <a title="Build Status" href="https://travis-ci.org/paypal/kraken-js"><img
+                            src="https://travis-ci.org/paypal/kraken-js.png" alt="Build Status: Passing|Failing"></a>
+                </div>
 
             </div>
         </div>
@@ -577,7 +584,8 @@ res.render(index,model);</pre>
 </div>
 </div>
 </div>
-<footer>
+</main>
+<footer role="contentinfo">
     <div class="wrapper">
         Designed with ❤ and care at <a href="http://www.paypal.com" alt="PayPal">PayPal</a><br>
         Code Licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" alt="Apache License">Apache
