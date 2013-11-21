@@ -284,12 +284,17 @@ div.wrapper {
     padding-bottom: 30px;
 }
 
-#InfoBlock h3 {
-    margin: 0 0;
+
+#InfoBlock h2{
+    font-size: 2em;
+    margin: 0;
+    font-weight: 200;
+
 }
 
-#InfoBlock h1, .docs h2 {
-    font-weight: 200;
+.docs h2 {
+    font-size: 2em;
+    margin-top: 0;
 }
 
 #InfoBlock hr {
@@ -315,25 +320,25 @@ div.wrapper {
     text-align: center;
 }
 
-#modules  li h3 {
+#modules  li div.moduleTitle {
     margin: 5px 0;
-    font-weight: 200;
+    font-weight: bold;
 
 }
 
-li.lusca h3 {
+li.lusca div.moduleTitle  {
     color: #F6CA42;
 }
 
-li.makara h3 {
+li.makara div.moduleTitle  {
     color: #EA9D5E;
 }
 
-li.adaro h3 {
+li.adaro div.moduleTitle  {
     color: #C4B4D6;
 }
 
-li.kappa h3 {
+li.kappa div.moduleTitle  {
     color: #90BE6B;
 }
 
