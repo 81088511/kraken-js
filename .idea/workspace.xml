@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kraken-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/humans.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383239820103" ignored="false" />
     <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1385021006210" ignored="false" />
-    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1385020747747" ignored="false" />
+    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1385021391633" ignored="false" />
     <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/config.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
@@ -26,7 +24,7 @@
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/specifics.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/stylesheets/stylesheet.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
     <file path="$PROJECT_DIR$/../nodejs.github.paypal.com/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383583960473" ignored="false" />
-    <file path="/Dummy.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384984605123" ignored="false" />
+    <file path="/Dummy.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1385021358965" ignored="false" />
     <file path="$PROJECT_DIR$/../falcon-app/Gruntfile.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
     <file path="$PROJECT_DIR$/../falcon-app/templates.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
     <file path="$PROJECT_DIR$/../falcon-app/controllers/create.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383615938535" ignored="false" />
@@ -240,13 +238,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="345" column="0" selection-start="11025" selection-end="11025" vertical-scroll-proportion="0.86725664">
+                <state line="345" column="0" selection-start="11025" selection-end="11025" vertical-scroll-proportion="2.6564887">
                   <folding>
-                    <marker date="1385021055000" expanded="true" signature="1120:1273" placeholder="..." />
-                    <marker date="1385021055000" expanded="true" signature="1213:1241" placeholder="..." />
+                    <marker date="1385021118000" expanded="true" signature="1120:1273" placeholder="..." />
+                    <marker date="1385021118000" expanded="true" signature="1213:1241" placeholder="..." />
                   </folding>
                 </state>
               </provider>
@@ -255,10 +253,8 @@
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="526" column="68" selection-start="9226" selection-end="9226" vertical-scroll-proportion="-50.08">
-                  <folding>
-                    <element signature="e#4577#5240#2" expanded="true" />
-                  </folding>
+                <state line="526" column="18" selection-start="9238" selection-end="9238" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -276,13 +272,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="525" column="35" selection-start="9205" selection-end="9205" vertical-scroll-proportion="0.7622699">
-                  <folding>
-                    <element signature="e#4577#5240#2" expanded="true" />
-                  </folding>
+                <state line="525" column="45" selection-start="9215" selection-end="9215" vertical-scroll-proportion="0.7511046">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -309,8 +303,8 @@
       <list>
         <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -376,14 +370,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -403,19 +397,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -446,6 +427,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -459,13 +453,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -487,6 +474,13 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -522,7 +516,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="838" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -630,17 +624,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1385021055000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1385021055000" expanded="true" signature="1213:1241" placeholder="..." />
+            <marker date="1385021118000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1385021118000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
@@ -653,9 +645,7 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="211" column="23" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#4577#5240#2" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,9 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/humans.txt">
@@ -680,9 +668,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/plugins.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/vendor/google-code-prettify/sons-of-obsidian.css">
@@ -694,9 +680,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.51583713">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.51583713" />
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
@@ -719,22 +703,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="526" column="68" selection-start="9226" selection-end="9226" vertical-scroll-proportion="-50.08">
+        <state line="345" column="0" selection-start="11025" selection-end="11025" vertical-scroll-proportion="2.6564887">
           <folding>
-            <element signature="e#4577#5240#2" expanded="true" />
+            <marker date="1385021118000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1385021118000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="345" column="0" selection-start="11025" selection-end="11025" vertical-scroll-proportion="0.86725664">
-          <folding>
-            <marker date="1385021055000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1385021055000" expanded="true" signature="1213:1241" placeholder="..." />
-          </folding>
+        <state line="525" column="45" selection-start="9215" selection-end="9215" vertical-scroll-proportion="0.7511046">
+          <folding />
         </state>
       </provider>
     </entry>

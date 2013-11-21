@@ -523,7 +523,7 @@ footer a, .docs a {
         margin: 0;
     }
 
-    .docsContent ul, .docsContent ol{
+    .docsContent ul, .docsContent > section > ol{
         margin: 0;
         padding: 0;
 
