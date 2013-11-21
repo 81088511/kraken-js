@@ -523,6 +523,12 @@ footer a, .docs a {
         margin: 0;
     }
 
+    .docsContent ul, .docsContent ol{
+        margin: 0;
+        padding: 0;
+
+    }
+
 }
 
 /*Just for fun*/
