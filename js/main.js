@@ -105,7 +105,7 @@ $(function () {
         {
             element: $("#Tentacle"),
             property: "right",
-            base: 20,
+            base: 5,
             suffix: "%",
             range: 0.75,
             direction: 1

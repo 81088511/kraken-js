@@ -125,7 +125,7 @@ code {
     border-radius: 5px;
     border: solid 1px #666666;
     background-color: #f0f0f0;
-    color:#333;
+    color: #333;
     white-space: nowrap;
 
 }
@@ -143,23 +143,26 @@ header ul {
 header ul li {
     list-style: none;
     display: inline-block;
-    margin-right: 3em;
-    min-width: 40px;
+    margin: 0 2.5em 0 0;
     height: 30px;
 
 }
 
+header ul li:first-of-type {
+    margin: 0;
+}
+
 header ul li:last-of-type {
     float: right;
-    margin: 15px 0 0 0;
+    margin: 1em 0 0 0;
 
 }
 
 header .hex2 {
-    font-size: 12px;
-    position: absolute;
+    font-size: .75em;
 }
-header .hex2 div{
+
+header .hex2 div {
     width: 44px;
     height: 50px;
     background-image: url('../img/hexBlue.png');
@@ -167,9 +170,13 @@ header .hex2 div{
 
 }
 
+header .kraken a {
+    text-decoration: none;
+}
 
 div.wrapper {
-    width: 960px;
+    max-width: 960px;
+    padding: 0 1em;
     margin: 0 auto;
 }
 
@@ -178,7 +185,7 @@ div.wrapper {
 }
 
 #MainBlock .wrapper {
-    margin: 0 auto 100px;
+    margin: 0 auto 3em;
 }
 
 #Intro {
@@ -187,13 +194,14 @@ div.wrapper {
     z-index: 2;
 }
 
-.mainLogo{
+.mainLogo {
     float: left;
-    height: 250px;
-    width: 200px;
+    height: 150px;
+    width: 137px;
     background-repeat: no-repeat;
     margin: 0 2em 0 0;
 }
+
 #MainLogo {
     background-image: url(../img/KrakenLogoLarge.png);
 }
@@ -206,23 +214,21 @@ div.wrapper {
     background-image: url(../img/oldLogo@Low.png);
 }
 
-#Intro h1 {
+#IntroText {
+    margin: 0 0 0 170px;
+}
+
+#IntroText h1 {
     font-size: 1.25em;
     font-weight: normal;
 }
 
-#Intro .download {
+#IntroText .download {
     border-radius: 5px;
     padding: .75em;
-    margin: 1em 0;
+    margin: 1em 1em 0 0;
     background-color: #F1F1F2;
     color: #0779BE;
-}
-
-#Intro ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 0 2em 0 0;
 }
 
 #Intro a {
@@ -256,7 +262,7 @@ div.wrapper {
     height: 415px;
     width: 326px;
     bottom: 1px;
-    right: 20%;
+    right: 5%;
     z-index: -1;
 }
 
@@ -276,10 +282,10 @@ div.wrapper {
 }
 
 #InfoBlock h3 {
-    margin:0 0;
+    margin: 0 0;
 }
 
-#InfoBlock h1,.docs h2 {
+#InfoBlock h1, .docs h2 {
     font-weight: 200;
 }
 
@@ -288,23 +294,25 @@ div.wrapper {
 }
 
 #modules {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-#modules > li {
-    display: inline-block;
-    list-style: none;
-    width: 20%;
     text-align: center;
 }
 
-#modules > li:last-of-type {
-    float: right;
+#modules ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
 }
 
-#modules > li h3 {
+#modules  li {
+    display: inline-block;
+    list-style: none;
+    min-width: 9em;
+    width: 24%;
+    text-align: center;
+}
+
+#modules  li h3 {
     margin: 5px 0;
     font-weight: 200;
 
@@ -327,43 +335,39 @@ li.kappa h3 {
 }
 
 #cast {
+    text-align: left;
+}
+
+#cast ul {
     margin: 0;
     padding: 0;
-    position: relative;
+    display: inline-block;
 }
 
 #cast li {
+    list-style: none;
+    margin: 0 1em;
+    vertical-align: top;
     display: inline-block;
-    height: 4em;
-    text-align: center;
-    margin: 0 10px 0 0;
+    width: 27%;
 
 }
 
 #cast li p {
     margin: 0;
-
 }
 
 #cast a {
     text-decoration: none;
 }
 
-#cast li:hover .info, #cast li:focus .info {
-    display:block;
-}
-
 #cast .info {
-    display: none;
-    position: absolute;
-    right: 0;
     text-align: left;
-    top: -15px;
-    width: 430px;
 }
 
-#cast .info p{
+#cast .info p {
     color: #FFFFFF;
+    max-width: 12em;
 
 }
 
@@ -377,11 +381,9 @@ li.kappa h3 {
 
     width: 70px;
     height: 70px;
-    margin: 0 auto;
 }
 
-
-.hex2 > div{
+.hex2 > div {
     font-size: 2em;
     line-height: 2em;
     text-align: center;
@@ -393,23 +395,23 @@ li.kappa h3 {
     margin: 0 auto;
 }
 
-.docs{
+.docs {
     background-color: #FFFFFF;
-    color:#414141;
+    color: #414141;
     padding: 3em 0;
     position: relative;
 }
 
-.docs h1{
+.docs h1 {
     font-weight: bold;
     margin: 0 0 1em 0;
 }
 
-.docsContent section:first-of-type h2{
+.docsContent section:first-of-type h2 {
     margin-top: 0;
 }
 
-.docsContent h2{
+.docsContent h2 {
     margin-top: 2em;
     font-weight: bold;
     font-size: 1.8em;
@@ -418,47 +420,96 @@ li.kappa h3 {
     border-bottom: solid 1px #016084;
 }
 
-.docs .staticMenu{
-    float:left;
+.docs .staticMenu {
+    float: left;
     position: absolute;
-    font-size: 24px;
+    font-size: 1.25em;
 
 }
 
-.staticMenu > ul{
+.staticMenu > ul {
     margin: 0 !important;
     padding: 0;
 }
-.staticMenu ul{
+
+.staticMenu ul {
     margin: 0 .5em;
     padding: 0;
 }
 
-.staticMenu ul li{
+.staticMenu ul li {
     list-style: none;
-    font-size: .7em;
     margin: 0;
     padding: 0 0 .5em 0;
     font-weight: 200;
 }
 
-.staticMenu a{
+.staticMenu a {
     text-decoration: none;
 }
-.docsContent{
+
+.docsContent {
     margin: 0 0 0 240px;
 }
 
 footer {
-    padding:3em;
+    padding: 3em;
     background-color: #e6e7e8;
     color: #6d6e70;
 }
 
-footer a, .docs a{
+footer a, .docs a {
     color: #0779BE;
 
 }
+
+/*Responsive!*/
+@media only screen and  (max-width: 640px) {
+
+    #forkMe {
+        display: none;
+    }
+
+    header {
+        margin-bottom: 3em;
+    }
+
+    header ul li {
+        margin-right: .5em;
+    }
+
+    header ul li:last-of-type {
+        display: block;
+        float: none;
+        margin: 1em 0 0 1em;
+    }
+
+    #modules  li {
+        display: inline-block;
+        list-style: none;
+        width: 45%;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .docs {
+        padding: 1em;
+    }
+    .docs h1 {
+        margin: 0 0 .25em 0;
+    }
+
+    .docs .staticMenu {
+        float: none;
+        position: inherit;
+    }
+
+    .docsContent {
+        margin: 0;
+    }
+
+}
+
 /*Just for fun*/
 .bubble {
     z-index: 0;
@@ -484,7 +535,6 @@ footer a, .docs a{
     -o-animation-timing-function: linear;
     animation-timing-function: linear;
 }
-
 
 /* Keyframe animations */
 @-webkit-keyframes float-up {
@@ -519,6 +569,7 @@ footer a, .docs a{
         -o-transform: translate3d(0, -477px, 0);
     }
 }
+
 @keyframes float-up {
     0% {
         transition: transform 0.3s ease;

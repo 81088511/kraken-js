@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="" />
+    <list default="true" id="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+    </list>
     <ignored path="kraken-site.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/humans.txt" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383239820103" ignored="false" />
-    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384986987487" ignored="false" />
-    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384990367264" ignored="false" />
+    <file path="/index.html" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1385016575279" ignored="false" />
+    <file path="/main.css" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1385017390848" ignored="false" />
     <file path="/main.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1384905283623" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/package.json" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383580688224" ignored="false" />
     <file path="$PROJECT_DIR$/../kraken/kraken-js/lib/patch/config.js" changelist="19aba841-7b7c-4381-b1f8-f5ddb4e71baa" time="1383838688629" ignored="false" />
@@ -215,59 +219,77 @@
     <favorites_list name="kraken-site" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CONTRIBUTING.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="humans.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/humans.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="11" selection-start="8199" selection-end="8199" vertical-scroll-proportion="-9.241072">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1384989057000" expanded="true" signature="1120:1273" placeholder="..." />
-                <marker date="1384989057000" expanded="true" signature="1213:1241" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="414" column="20" selection-start="7632" selection-end="7632" vertical-scroll-proportion="-0.33435583">
-              <folding>
-                <element signature="e#4536#5199#2" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="70" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="CONTRIBUTING.md" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CONTRIBUTING.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="humans.txt" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/humans.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="52" column="41" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.6902655">
+                  <folding>
+                    <marker date="1385017514000" expanded="true" signature="1120:1273" placeholder="..." />
+                    <marker date="1385017514000" expanded="true" signature="1213:1241" placeholder="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="412" column="0" selection-start="7534" selection-end="7534" vertical-scroll-proportion="-9.12">
+                  <folding>
+                    <element signature="e#4579#5242#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="107" column="19" selection-start="3162" selection-end="3162" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="466" column="44" selection-start="8300" selection-end="8300" vertical-scroll-proportion="0.17725259">
+                  <folding>
+                    <element signature="e#4579#5242#2" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -287,8 +309,8 @@
       <list>
         <option value="$PROJECT_DIR$/humans.txt" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -518,7 +540,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20014347" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20014347" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -608,9 +630,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="33" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1384989057000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384989057000" expanded="true" signature="1213:1241" placeholder="..." />
+            <marker date="1385017514000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1385017514000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -633,7 +654,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="211" column="23" selection-start="3602" selection-end="3602" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#4536#5199#2" expanded="true" />
+            <element signature="e#4579#5242#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -693,27 +714,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="70" selection-start="826" selection-end="826" vertical-scroll-proportion="0.0">
+        <state line="107" column="19" selection-start="3162" selection-end="3162" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="11" selection-start="8199" selection-end="8199" vertical-scroll-proportion="-9.241072">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1384989057000" expanded="true" signature="1120:1273" placeholder="..." />
-            <marker date="1384989057000" expanded="true" signature="1213:1241" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="414" column="20" selection-start="7632" selection-end="7632" vertical-scroll-proportion="-0.33435583">
+        <state line="412" column="0" selection-start="7534" selection-end="7534" vertical-scroll-proportion="-9.12">
           <folding>
-            <element signature="e#4536#5199#2" expanded="true" />
+            <element signature="e#4579#5242#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="41" selection-start="2205" selection-end="2205" vertical-scroll-proportion="0.6902655">
+          <folding>
+            <marker date="1385017514000" expanded="true" signature="1120:1273" placeholder="..." />
+            <marker date="1385017514000" expanded="true" signature="1213:1241" placeholder="..." />
           </folding>
         </state>
       </provider>

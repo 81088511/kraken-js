@@ -37,7 +37,6 @@
         <ul>
             <li class="kraken"><a href="#" title="Home">
                 <div class="hex2">
-                    
                     <div>K</div>
                 </div>
             </a></li>
@@ -48,29 +47,33 @@
                                                                        alt="PayPal Open Source"></a></li>
         </ul>
     </div>
-    <a href="https://github.com/paypal/kraken-js"><img style="position: absolute; top: 0; right: 0; border: 0;"
-                                                       src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
-                                                       alt="Fork me on GitHub"></a>
+    <!--a id="forkMe" href="https://github.com/paypal/kraken-js"><img
+            style="position: absolute; top: 0; right: 0; border: 0;"
+            src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"
+            alt="Fork me on GitHub"></a-->
 </header>
 <div id="MainBlock">
     <div class="wrapper">
 
         <div id="Intro">
             <div id="MainLogo" class="mainLogo"></div>
-            <img src="img/TextLogo@High.png" alt="KrakenJS" height="65">
+            <div id="IntroText">
+                <img src="img/TextLogo@High.png" alt="KrakenJS" height="65">
 
-            <h1>
-                The kraken suite is an enterprise-grade web application framework for node.js built on top of express.
-                It allows you to build secure, scalable, and easy to maintain applications in record time.
-            </h1>
-            <br>
-            <a class="download" href="#QuickStart">
-                Get Started
-            </a>
-            <ul>
-                <li><a title="Build Status" href="https://travis-ci.org/paypal/kraken-js"><img
-                        src="https://travis-ci.org/paypal/kraken-js.png"></a></li>
-            </ul>
+                <h1>
+                    The kraken suite is an enterprise-grade web application framework for node.js built on top of
+                    express.
+                    It allows you to build secure, scalable, and easy to maintain applications in record time.
+                </h1>
+                <br>
+                <a class="download" href="#QuickStart">
+                    Get Started
+                </a>
+                <a title="Build Status" href="https://travis-ci.org/paypal/kraken-js"><img
+                        src="https://travis-ci.org/paypal/kraken-js.png"></a>
+
+
+            </div>
         </div>
     </div>
     <div id="Rocks">
@@ -89,36 +92,39 @@
             a robust base for your applications.
             Each of these modules can also be used independently according to your project needs.
         </p>
-        <ul id="modules">
-            <li class="lusca">
-                <img src="img/Lusca.png" alt="Lusca">
 
-                <h3>Lusca</h3>
+        <div id="modules">
+            <ul>
+                <li class="lusca">
+                    <img src="img/Lusca.png" alt="Lusca">
 
-                <a href="http://github.com/paypal/lusca">Application security</a>
-            </li>
-            <li class="makara">
-                <img src="img/Makara.png" alt="makara">
+                    <h3>Lusca</h3>
 
-                <h3>Makara</h3>
+                    <a href="http://github.com/paypal/lusca">Application security</a>
+                </li>
+                <li class="makara">
+                    <img src="img/Makara.png" alt="makara">
 
-                <a href="http://github.com/paypal/makara">Internationalization</a>
-            </li>
-            <li class="adaro">
-                <img src="img/Adaro.png" alt="Adaro">
+                    <h3>Makara</h3>
 
-                <h3>Adaro</h3>
+                    <a href="http://github.com/paypal/makara">Internationalization</a>
+                </li>
+                <li class="adaro">
+                    <img src="img/Adaro.png" alt="Adaro">
 
-                <a href="http://github.com/paypal/adaro">Dust-js Support</a>
-            </li>
-            <li class="kappa">
-                <img src="img/Kappa.png" alt="Kappa">
+                    <h3>Adaro</h3>
 
-                <h3>Kappa</h3>
+                    <a href="http://github.com/paypal/adaro">Dust-js Support</a>
+                </li>
+                <li class="kappa">
+                    <img src="img/Kappa.png" alt="Kappa">
 
-                <a href="http://github.com/paypal/kappa">NPM Proxy</a>
-            </li>
-        </ul>
+                    <h3>Kappa</h3>
+
+                    <a href="http://github.com/paypal/kappa">NPM Proxy</a>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <div class="wrapper">
@@ -126,123 +132,107 @@
 
         <div>
             <p>Additional dependencies, tools and utilities for the kraken suite</p>
-            <br>
-            <ul id="cast">
 
-                <li class="generator" tabindex="4">
-                    <a href="#">
-                        <div class="hex2">
-                            
-                            <div>G</div>
+            <div id="cast">
+                <ul>
+
+                    <li class="generator" tabindex="4">
+                        <a href="#">
+                            <div class="hex2">
+                                <div>G</div>
+                            </div>
+                        </a>
+
+                        <div class="info">
+                            <h4>Generator</h4>
+                            <p>
+                                A Yeoman generator for kraken projects
+                            </p>
                         </div>
-                        <div>Generator</div>
-                    </a>
+                    </li>
+                   <li class="enrouten" tabindex="9">
+                        <a href="#">
+                            <div class="hex2">
+                                <div>E</div>
+                            </div>
+                        </a>
 
-                    <div class="info">
-                        <h4>Generator</h4>
+                        <div class="info">
+                            <strong>Enrouten</strong>
 
-                        <p>
-                            A Yeoman generator that will allow you to quickly set up kraken projects
-                        </p>
-                    </div>
-                </li>
-                <li class="shortstop" tabindex="5">
-                    <a href="#">
-                        <div class="hex2">
-                            
-                            <div>S</div>
+                            <p>
+                                Route configuration middleware for expressjs.
+                            </p>
                         </div>
-                        <div>Shortstop</div>
-                    </a>
+                    </li>
 
-                    <div class="info">
-                        <h4>Shortstop</h4>
+                    <li class="webtools" tabindex="10">
+                        <a href="#">
+                            <div class="hex2">
+                                <div>D</div>
+                            </div>
+                        </a>
 
-                        <p>
-                            Sometimes JSON just isn't enough for configuration needs.
-                            Shortstop enables the use of protocols and handlers to enable
-                            identification and special handling of json values.
-                        </p>
-                    </div>
-                </li>
-                <li class="findatag" tabindex="6">
-                    <a href="#">
-                        <div class="hex2">
-                            
-                            <div>F</div>
+                        <div class="info">
+                            <strong>DevTools</strong>
+
+                            <p>
+                                Development-time tools for kraken applications.
+                            </p>
                         </div>
-                        <div>FindATag</div>
-                    </a>
+                    </li>
+                    <!--
+                     <li class="shortstop" tabindex="5">
+                        <a href="#">
+                            <div class="hex2">
+                                <div>S</div>
+                            </div>
+                        </a>
 
-                    <div class="info">
-                        <strong>FindATag</strong>
-
-                        <p>
-                            A string tokenizer, that looks for a specific pattern:
-                        <pre>{@[A-Za-z._] [attrs...]/}.</pre>
-
-                        </p>
-                    </div>
-                </li>
-                <li class="spud" tabindex="7">
-                    <a href="#">
-                        <div class="hex2">
-                            
-                            <div>S</div>
+                        <div class="info">
+                            <h4>Shortstop</h4>
+                            <p>
+                                Enables the use of protocols for special handling of json values.
+                            </p>
                         </div>
-                        <div>Spud</div>
+                    </li>
+                    <li class="findatag" tabindex="6">
+                        <a href="#">
+                            <div class="hex2">
+                                <div>F</div>
+                            </div>
+                        </a>
 
-                    </a>
+                        <div class="info">
+                            <strong>FindATag</strong>
 
-                    <div class="info">
-                        <strong>Spud</strong>
-
-                        <p>
-                            A content bundle transcoder. It will convert to and from different formats, including
-                            .properties, .json, etc
-                        </p>
-                    </div>
-                </li>
-                <li class="enrouten" tabindex="9">
-                    <a href="#">
-                        <div class="hex2">
-                            
-                            <div>E</div>
+                            <p>
+                                A string tokenizer for a specific pattern
+                            </p>
                         </div>
-                        <div>Enrouten</div>
+                    </li>
+                    <li class="spud" tabindex="7">
+                        <a href="#">
+                            <div class="hex2">
+                                <div>U</div>
+                            </div>
+                        </a>
 
-                    </a>
+                        <div class="info">
+                            <strong>Spud</strong>
 
-                    <div class="info">
-                        <strong>Enrouten</strong>
-
-                        <p>
-                            Route configuration middleware for expressjs. This module changes where/how express loads
-                            its routing, making for more organized applications.
-                        </p>
-                    </div>
-                </li>
-
-                <li class="webtools" tabindex="10">
-                    <a href="#">
-                        <div class="hex2">
-                            
-                            <div>W</div>
+                            <p>
+                                A content bundle transcoder. Converts between formats like
+                                .properties, .json, etc
+                            </p>
                         </div>
-                        <div>DevTools</div>
+                    </li>
 
-                    </a>
 
-                    <div class="info">
-                        <strong>DevTools</strong>
+                    -->
 
-                        <p>
-                            A collection of development-time tools for kraken applications.
-                        </p>
-                    </div>
-                </li>
-
-            </ul>
+                </ul>
+            </div>
         </div>
         <hr>
     </div>
