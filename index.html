@@ -245,12 +245,12 @@
 </div>
 <div class="docs">
 <div class="wrapper">
-<h2 id="QuickStart">Getting started with kraken</h2>
+<h2 id="Docs">Getting started with kraken</h2>
 
 <div class="staticMenu" aria-label="Documentation Menu"></div>
 <div class="docsContent">
-<section>
-    <h3>Quick Start</h3>
+<section aria-labelledby="QuickStart">
+    <h3 id="QuickStart">Quick Start</h3>
     <ol>
         <li><h4>Install the generator</h4>
 
@@ -309,8 +309,8 @@ Listening on 8000</pre>
     </ol>
 </section>
 
-<section>
-    <h3>Structure of a Project</h3>
+<section aria-labelledby="Structure">
+    <h3 id="Structure">Structure of a Project</h3>
 
     <p>
         Kraken keeps your code organized by splitting up the configuration, content+templates and routing
@@ -391,8 +391,8 @@ kraken.create(app).listen(function (err) {
         So, where's all the configuration? Where are the routes?
     </p>
 </section>
-<section>
-    <h3>Configuration</h3>
+<section aria-labelledby="Configuration">
+    <h3 id="Configuration">Configuration</h3>
 
     <p>
         Kraken's configuration can be found in the <code>/config/app.json</code> file.
@@ -418,8 +418,8 @@ kraken.create(app).listen(function (err) {
     </p>
 
 </section>
-<section>
-    <h3>Security</h3>
+<section aria-labelledby="Security">
+    <h3 id="Security">Security</h3>
 
     <p>
         Security is provided out-of-the-box by the <a href="http://github.com/paypal/lusca">Lusca</a> module.
@@ -444,8 +444,8 @@ kraken.create(app).listen(function (err) {
             href="http://github.com/paypal/lusca">Readme</a>
     </p>
 </section>
-<section>
-    <h3>Routes</h3>
+<section aria-labelledby="Routes">
+    <h3 id="Routes">Routes</h3>
 
     <p>
         Kraken moves the routing logic into separate files in the <code>./controllers/</code> folder, allowing you to
@@ -473,8 +473,8 @@ module.exports = function (server) {
     <p>
         Kraken is built on top of express, so the rest of the logic should be familiar to Node developers</p>
 </section>
-<section>
-    <h3>Templates</h3>
+<section aria-labelledby="Templates">
+    <h3 id="Templates">Templates</h3>
 
     <p>
         Kraken uses LinkedIn's <a href="http://linkedin.github.io/dustjs/">DustJS</a> as the templating language of
@@ -495,8 +495,8 @@ module.exports = function (server) {
    &lt;h1&gt;Hello {name}!&lt;/h1&gt;</pre>
 
 </section>
-<section>
-    <h3>Localization</h3>
+<section aria-labelledby="Localization">
+    <h3 id="Localization">Localization</h3>
 
     <p>
         Thanks to <a href="http://github.com/makara">Makara</a>, kraken has
@@ -545,8 +545,8 @@ res.render(index,model);</pre>
      Hola Antonio Banderas!</pre>
 
 </section>
-<section>
-    <h3>Documentation</h3>
+<section aria-labelledby="Documentation">
+    <h3 id="Documentation">Documentation</h3>
 
     <p>
         To view the full documentation please visit <a href="http://github.com/paypal/kraken-js">kraken</a> on GitHub
@@ -557,8 +557,8 @@ res.render(index,model);</pre>
     </p>
 </section>
 
-<section>
-    <h3>FAQ</h3>
+<section aria-labelledby="FAQ">
+    <h3 id="FAQ">FAQ</h3>
     <ul>
         <li>
             <h4>How can I contribute to this project?</h4>
