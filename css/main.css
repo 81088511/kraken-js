@@ -300,6 +300,10 @@ div.wrapper {
     margin-top: 0;
 }
 
+pre.prettyprint {
+    padding: 1em;
+}
+
 #InfoBlock hr {
     border-color: #0095D4;
 }

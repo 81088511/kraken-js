@@ -491,8 +491,7 @@ module.exports = function (server) {
     <p>
         If we wanted to greet our customers, a basic template would be:
     </p>
-    <pre class="prettyprint lang-html">
-   &lt;h1&gt;Hello {name}!&lt;/h1&gt;</pre>
+    <pre class="prettyprint lang-html">&lt;h1&gt;Hello {name}!&lt;/h1&gt;</pre>
 
 </section>
 <section aria-labelledby="Localization">
@@ -512,8 +511,7 @@ res.render(index,model);</pre>
     <p>
         We would also change our template as follows, using a <code>@pre content</code> tag:
     </p>
-    <pre class="prettyprint lang-html">
-   &lt;h1&gt;{@pre type="content" key="index.greeting"/}&lt;/h1&gt;</pre>
+    <pre class="prettyprint lang-html">&lt;h1&gt;{@pre type="content" key="index.greeting"/}&lt;/h1&gt;</pre>
     <p>
         This instructs the framework to pick up the index.greeting string from one of the locale content bundles.
     </p>
@@ -541,8 +539,7 @@ res.render(index,model);</pre>
         So, in the above example, since the locality is set to <code>es_ES</code>, the framework would pick the second
         bundle, and display:
     </p>
-        <pre class="prettyprint">
-     Hola Antonio Banderas!</pre>
+    <pre class="prettyprint">Hola Antonio Banderas!</pre>
 
 </section>
 <section aria-labelledby="Documentation">
