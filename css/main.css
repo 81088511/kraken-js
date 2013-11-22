@@ -234,7 +234,7 @@ div.wrapper {
     border-radius: 5px;
     padding: .75em;
     background-color: #F1F1F2;
-    color: #0779BE;
+    color: #0666a1;
 }
 
 #Intro a {
@@ -466,7 +466,7 @@ li.kappa div.moduleTitle  {
 footer {
     padding: 3em;
     background-color: #e6e7e8;
-    color: #555;
+    color: #4b4b4b;
 }
 
 footer a, .docs a {
