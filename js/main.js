@@ -16,24 +16,27 @@ $(function () {
     });
 
     //Build the index by parsing the H2's in the documentation
-    var index=$("<ul></ul>");
+    var index=$("<ul class='nav'></ul>");
     $(".docsContent section").each(function(){
 
         var title = $($(this).find("h3")[0]);
         var rand = title.html();//+Math.random();
-        title.attr('id',rand);
-        var entry = $("<a></a>");
+        rand = rand.split(" ")[0];
+        title.attr('id', rand);
+        var entry = $("<a data-target='#" + rand + "'></a>");
         entry
             .html(title.html())
             .attr('href',"#"+rand);
 
 
-        index.append($("<li></li>").append(entry));
+        index.append($("<li data-offset='0'></li>").append(entry));
     });
+
     staticMenu.append(index);
 
-
-
+    $('body').scrollspy({
+		target: '#staticMenuNav'
+    });
 
 
 

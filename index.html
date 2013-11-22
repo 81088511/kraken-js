@@ -24,7 +24,7 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#staticMenuNav">
 
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -247,7 +247,7 @@
 <div class="wrapper">
 <h2 id="Docs">Getting started with kraken</h2>
 
-<div class="staticMenu" aria-label="Documentation Menu"></div>
+<div class="staticMenu" id="staticMenuNav" aria-label="Documentation Menu"></div>
 <div class="docsContent">
 <section aria-labelledby="QuickStart">
     <h3 id="QuickStart">Quick Start</h3>
@@ -478,7 +478,7 @@ module.exports = function (server) {
 
     <p>
         Kraken uses LinkedIn's <a href="http://linkedin.github.io/dustjs/">DustJS</a> as the templating language of
-        choice (This can be changed by the user if desired). <a href="http://github.com/adaro">Adaro</a> is the module
+        choice (This can be changed by the user if desired). <a href="http://github.com/paypal/adaro">Adaro</a> is the module
         responsible for rendering and managing the templates.
     </p>
 
@@ -498,7 +498,7 @@ module.exports = function (server) {
     <h3 id="Localization">Localization</h3>
 
     <p>
-        Thanks to <a href="http://github.com/makara">Makara</a>, kraken has
+        Thanks to <a href="http://github.com/paypal/makara">Makara</a>, kraken has
         the ability to load content bundles on the fly, based on the request context. If we wanted to greet a
         user in their native language (e.g.: Spanish), we can simply add this context to the response before rendering
         the template:
@@ -595,6 +595,7 @@ res.render(index,model);</pre>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
+<script src="js/vendor/bootstrap.scrollspy.js"></script>
 <script src="js/main.js"></script>
 
 
