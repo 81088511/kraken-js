@@ -456,6 +456,10 @@ li.kappa div.moduleTitle  {
     font-weight: 200;
 }
 
+.staticMenu ul li.active {
+    font-weight: bold;
+}
+
 .staticMenu a {
     text-decoration: none;
 }

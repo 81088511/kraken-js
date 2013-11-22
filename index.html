@@ -24,7 +24,7 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#staticMenuNav">
 
 <!--[if lt IE 7]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
@@ -247,7 +247,7 @@
 <div class="wrapper">
 <h2 id="Docs">Getting started with kraken</h2>
 
-<div class="staticMenu" aria-label="Documentation Menu"></div>
+<div class="staticMenu" id="staticMenuNav" aria-label="Documentation Menu"></div>
 <div class="docsContent">
 <section aria-labelledby="QuickStart">
     <h3 id="QuickStart">Quick Start</h3>
@@ -595,6 +595,7 @@ res.render(index,model);</pre>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
 <script src="js/plugins.js"></script>
+<script src="js/vendor/bootstrap.scrollspy.js"></script>
 <script src="js/main.js"></script>
 
 
