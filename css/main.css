@@ -169,7 +169,7 @@ header .hex2 div {
     width: 44px;
     height: 50px;
     background-image: url('../img/hexBlue.png');
-    line-height: 2em;
+    line-height: 50px;
 
 }
 
@@ -395,8 +395,8 @@ li.kappa div.moduleTitle  {
 }
 
 .hex2 > div {
-    font-size: 2em;
-    line-height: 2em;
+    font-size: 32px;
+    line-height: 70px;
     text-align: center;
     width: 62px;
     height: 70px;
